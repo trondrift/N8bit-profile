@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi all, I'm Nate",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks." +
-    "  I am also an active musician and have created a business around helping other musicians establish themselves on the web."
+      "  I am also an active musician and have created a business around helping other musicians establish themselves on the web."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1YqXXcEZJtlpmwo_oPrl-dMs_KW3N_j-wXfKxnUGksbg/edit?usp=sharing", // Set to empty to hide the button
@@ -55,7 +55,9 @@ const skillsSection = {
     emoji(
       "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications"
     ),
-    emoji("⚡Designing websites for high profile musicians, recording studios, and non-profits"),
+    emoji(
+      "⚡Designing websites for high profile musicians, recording studios, and non-profits"
+    ),
     emoji(
       "⚡ Integration of branding and ecommerce strategies into existing web sites"
     )
@@ -136,7 +138,9 @@ const educationInfo = {
       logo: require("./assets/images/interlochen.png"),
       subHeader: "Saxophone Performance",
       duration: "April 2008",
-      descBullets: ["Studied for a summer under the instruction of John Nichol and world famous composer Frank Ticheli"]
+      descBullets: [
+        "Studied for a summer under the instruction of John Nichol and world famous composer Frank Ticheli"
+      ]
     }
   ]
 };
@@ -192,7 +196,7 @@ const workExperiences = {
       company: "The Soul Syndicate",
       companylogo: require("./assets/images/SSLogo.png"),
       date: "www.thesoulsyndicate.com",
-      desc: "The Midwest's can't miss soul-infused entertainment experience",
+      desc: "The Midwest's can't miss soul-infused entertainment experience"
     },
     {
       role: "Webmaster / Saxophonist",

@@ -12,9 +12,7 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Made with ❤️ by Nate Hansen")}
         </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-         
-        </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}></p>
       </div>
     </Fade>
   );
