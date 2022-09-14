@@ -23,23 +23,24 @@ const greeting = {
   username: "Nathan Hansen",
   title: "Hi all, I'm Nate",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks." +
+    "  I am also an active musician and have created a business around helping other musicians establish themselves on the web."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1YqXXcEZJtlpmwo_oPrl-dMs_KW3N_j-wXfKxnUGksbg/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/trondrift",
+  linkedin: "https://www.linkedin.com/in/nate-hansen-b2853243/",
+  gmail: "nhansen.dev@gmail.com",
+  gitlab: "https://gitlab.com/trondrift",
+  facebook: "https://www.facebook.com/hansnath/",
+  medium: "https://medium.com/@trondrift",
+  stackoverflow: "https://stackoverflow.com/users/19997097/trondrift",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER / MUSICIAN WHO WANTS TO DESIGN YOUR WEBSITE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡Designing websites for high profile musicians, recording studios, and non-profits"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of branding and ecommerce strategies into existing web sites"
     )
   ],
 
@@ -89,10 +90,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -101,11 +98,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "azure",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "c++",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
@@ -126,23 +123,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Grand Valley State University",
+      logo: require("./assets/images/gv2full.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2009 - April 2012",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Selected out of thousands of students to participated in national programming competitions to represent the school in 2011 and 2012"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Interlochen Arts Academy",
+      logo: require("./assets/images/interlochen.png"),
+      subHeader: "Saxophone Performance",
+      duration: "April 2008",
+      descBullets: ["Studied for a summer under the instruction of John Nichol and world famous composer Frank Ticheli"]
     }
   ]
 };
@@ -157,11 +151,11 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Programming",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Programming",
+      Stack: "Backend",
       progressPercentage: "60%"
     }
   ],
@@ -175,28 +169,40 @@ const workExperiences = {
   experience: [
     {
       role: "Senior Software Engineer",
-      company: "Gentex",
+      company: "Gentex Corporation",
       companylogo: require("./assets/images/gentexblack.png"),
       date: "September 2012 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Industry-leading global automotive tech supplier that optimizes driver vision and enhances driving safety and convenience",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designing and maintaining full stack software tool solutions",
+        "Managing projects for various tester architecture and traceability strategies.",
+        "Web app development in React.js using Azure DevOps for deployment cycles.",
+        "Full stack software tool solutions in C++."
       ]
     },
     {
       role: "Owner",
       company: "Hanstech LLC",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/hanstechLLC2.png"),
       date: "May 2020 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Managing websites for high profile musicians, recording studios, and non-profits"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Webmaster / Saxophonist",
+      company: "The Soul Syndicate",
+      companylogo: require("./assets/images/SSLogo.png"),
+      date: "www.thesoulsyndicate.com",
+      desc: "The Midwest's can't miss soul-infused entertainment experience",
+    },
+    {
+      role: "Webmaster / Saxophonist",
+      company: "Melophobix",
+      companylogo: require("./assets/images/melo.png"),
+      date: "www.melophobix.com",
+      desc: "Cage-Free Punk Funk from Grand Rapids, MI",
+      descBullets: [
+        "Main support for artists like Sublime, Dirty Heads, [Bob Marley &] The Wailers, Less Than Jake, and Rusted Root"
+      ]
     }
   ]
 };
