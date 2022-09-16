@@ -56,7 +56,7 @@ const skillsSection = {
       "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications"
     ),
     emoji(
-      "⚡Designing websites for high profile musicians, recording studios, and non-profits"
+      "⚡Web design for high profile musicians, recording studios, and non-profits"
     ),
     emoji(
       "⚡ Integration of branding and ecommerce strategies into existing web sites"
@@ -74,10 +74,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -101,20 +97,37 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "azure",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "fab fa-windows"
     },
     {
       skillName: "c++",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "typescript",
+      fontAwesomeClassname: "far fa-keyboard"
+    },
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "squarespace",
+      fontAwesomeClassname: "fab fa-squarespace"
+    },
+    {
+      skillName: "wix",
+      fontAwesomeClassname: "fab fa-wix"
+    },
+    {
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -222,32 +235,43 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME STARTUPS, NON-PROFITS, AND ARTISTS THAT I HAVE HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/DCDetourProfile.png"),
+      projectName: "Danielle Cosby",
+      projectDesc: "Musician / Music Manager / Songwriter / Creative",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://daniellecosby.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/cwlogo.webp"),
+      projectName: "Cullowheegee Farms",
+      projectDesc: " All Natural, Handmade Soaps, Lotions, Salves, Jewelry and Crafts from our farm in the heart of the Appalachian Mountains",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://cullowheegeefarms.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/HULogo.png"),
+      projectName: "Hark Up",
+      projectDesc: "Michigan faith based talent organization that provides a diverse collection of musical programming well suited for both private and community centered events year round",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://harkup.com/"
         }
       ]
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
