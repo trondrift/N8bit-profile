@@ -57,12 +57,10 @@ const skillsSection = {
     emoji(
       "⚡ Web design for high profile musicians, recording studios, non-profits, and businesses"
     ),
-    emoji(
-      "⚡ Integration of branding and ecommerce strategies for startups"
-    ),
+    emoji("⚡ Integration of branding and ecommerce strategies for startups"),
     emoji(
       "⚡ I am also an active musician and have created a business around helping other musicians establish themselves on the web"
-    ),
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -128,8 +126,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "wordpress",
       fontAwesomeClassname: "fab fa-wordpress"
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -205,13 +202,8 @@ const workExperiences = {
       companylogo: require("./assets/images/hanstechLLC2.png"),
       date: "May 2020 – Present",
       desc: "Managing software solutions for high profile musicians, startups, and non-profits",
-      descBullets: [
-        "Web Design",
-        "Ecommerce",
-        "Web Frameworks",
-        "Custom Tools"
-      ]
-    },
+      descBullets: ["Web Design", "Ecommerce", "Web Frameworks", "Custom Tools"]
+    }
     // {
     //   role: "Webmaster / Saxophonist",
     //   company: "The Soul Syndicate",
@@ -260,7 +252,8 @@ const artistProjects = {
     {
       image: require("./assets/images/SSLogo.png"),
       projectName: "The Soul Syndicate",
-      projectDesc: "The Midwest's can't miss soul-infused entertainment experience",
+      projectDesc:
+        "The Midwest's can't miss soul-infused entertainment experience",
       footerLink: [
         {
           name: "Visit Website",
@@ -278,7 +271,7 @@ const artistProjects = {
           url: "http://melophobix.com/"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -290,7 +283,8 @@ const bigProjects = {
     {
       image: require("./assets/images/cwlogo.webp"),
       projectName: "Cullowheegee Farms",
-      projectDesc: " All Natural, Handmade Soaps, Lotions, Salves, Jewelry and Crafts from our farm in the heart of the Appalachian Mountains",
+      projectDesc:
+        " All Natural, Handmade Soaps, Lotions, Salves, Jewelry and Crafts from our farm in the heart of the Appalachian Mountains",
       footerLink: [
         {
           name: "Visit Website",
@@ -302,14 +296,15 @@ const bigProjects = {
     {
       image: require("./assets/images/HULogo.png"),
       projectName: "Hark Up",
-      projectDesc: "Michigan faith based talent organization that provides a diverse collection of musical programming well suited for both private and community centered events year round",
+      projectDesc:
+        "Michigan faith based talent organization that provides a diverse collection of musical programming well suited for both private and community centered events year round",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://harkup.com/"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
