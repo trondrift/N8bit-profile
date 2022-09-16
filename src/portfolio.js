@@ -23,8 +23,7 @@ const greeting = {
   username: "Nathan Hansen",
   title: "Hi all, I'm Nate",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks." +
-      "  I am also an active musician and have created a business around helping other musicians establish themselves on the web."
+    "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1YqXXcEZJtlpmwo_oPrl-dMs_KW3N_j-wXfKxnUGksbg/edit?usp=sharing", // Set to empty to hide the button
@@ -50,17 +49,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER / MUSICIAN WHO WANTS TO DESIGN YOUR WEBSITE",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO DESIGN YOUR WEBSITE",
   skills: [
     emoji(
       "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications"
     ),
     emoji(
-      "⚡Web design for high profile musicians, recording studios, and non-profits"
+      "⚡ Web design for high profile musicians, recording studios, non-profits, and businesses"
     ),
     emoji(
-      "⚡ Integration of branding and ecommerce strategies into existing web sites"
-    )
+      "⚡ Integration of branding and ecommerce strategies for startups"
+    ),
+    emoji(
+      "⚡ I am also an active musician and have created a business around helping other musicians establish themselves on the web"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -191,10 +193,10 @@ const workExperiences = {
       date: "September 2012 – Present",
       desc: "Industry-leading global automotive tech supplier that optimizes driver vision and enhances driving safety and convenience",
       descBullets: [
-        "Designing and maintaining full stack software tool solutions",
-        "Managing projects for various tester architecture and traceability strategies.",
-        "Web app development in React.js using Azure DevOps for deployment cycles.",
-        "Full stack software tool solutions in C++."
+        "Full stack software tools",
+        "Managing projects for tester architecture and traceability",
+        "Web app development in React.js",
+        "Full stack software solutions in C++"
       ]
     },
     {
@@ -202,25 +204,31 @@ const workExperiences = {
       company: "Hanstech LLC",
       companylogo: require("./assets/images/hanstechLLC2.png"),
       date: "May 2020 – Present",
-      desc: "Managing websites for high profile musicians, recording studios, and non-profits"
-    },
-    {
-      role: "Webmaster / Saxophonist",
-      company: "The Soul Syndicate",
-      companylogo: require("./assets/images/SSLogo.png"),
-      date: "www.thesoulsyndicate.com",
-      desc: "The Midwest's can't miss soul-infused entertainment experience"
-    },
-    {
-      role: "Webmaster / Saxophonist",
-      company: "Melophobix",
-      companylogo: require("./assets/images/melo.png"),
-      date: "www.melophobix.com",
-      desc: "Cage-Free Punk Funk from Grand Rapids, MI",
+      desc: "Managing software solutions for high profile musicians, startups, and non-profits",
       descBullets: [
-        "Main support for artists like Sublime, Dirty Heads, [Bob Marley &] The Wailers, Less Than Jake, and Rusted Root"
+        "Web Design",
+        "Ecommerce",
+        "Web Frameworks",
+        "Custom Tools"
       ]
-    }
+    },
+    // {
+    //   role: "Webmaster / Saxophonist",
+    //   company: "The Soul Syndicate",
+    //   companylogo: require("./assets/images/SSLogo.png"),
+    //   date: "www.thesoulsyndicate.com",
+    //   desc: "The Midwest's can't miss soul-infused entertainment experience"
+    // },
+    // {
+    //   role: "Webmaster / Saxophonist",
+    //   company: "Melophobix",
+    //   companylogo: require("./assets/images/melo.png"),
+    //   date: "www.melophobix.com",
+    //   desc: "Cage-Free Punk Funk from Grand Rapids, MI",
+    //   descBullets: [
+    //     "Main support for artists like Sublime, Dirty Heads, [Bob Marley &] The Wailers, Less Than Jake, and Rusted Root"
+    //   ]
+    // }
   ]
 };
 
@@ -234,9 +242,9 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const bigProjects = {
-  title: "Projects",
-  subtitle: "SOME STARTUPS, NON-PROFITS, AND ARTISTS THAT I HAVE HELPED TO CREATE THEIR TECH",
+const artistProjects = {
+  title: "Profile Projects",
+  subtitle: "WEB DESIGN FOR ARTISTS, MUSICIANS, AND CREATIVES",
   projects: [
     {
       image: require("./assets/images/DCDetourProfile.png"),
@@ -250,13 +258,43 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/SSLogo.png"),
+      projectName: "The Soul Syndicate",
+      projectDesc: "The Midwest's can't miss soul-infused entertainment experience",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://thesoulsyndicate.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/melo.png"),
+      projectName: "Melophobix",
+      projectDesc: "Cage-Free Punk Funk from Grand Rapids, MI",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://melophobix.com/"
+        }
+      ]
+    },
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const bigProjects = {
+  title: "Independent Projects",
+  subtitle: "WEBMASTER FOR STARTUPS, SMALL BUSINESSES, AND NON-PROFITS",
+  projects: [
+    {
       image: require("./assets/images/cwlogo.webp"),
       projectName: "Cullowheegee Farms",
       projectDesc: " All Natural, Handmade Soaps, Lotions, Salves, Jewelry and Crafts from our farm in the heart of the Appalachian Mountains",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://cullowheegeefarms.com/"
+          url: "https://cullowheegeefarms.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -268,7 +306,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://harkup.com/"
+          url: "https://harkup.com/"
         }
       ]
     },
@@ -421,6 +459,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  artistProjects,
   achievementSection,
   blogSection,
   talkSection,
