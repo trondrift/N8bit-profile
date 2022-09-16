@@ -1,47 +1,55 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a800f61bbbde1f6f041af0c093c1837",
+    "revision": "2cdbb57234de7e40d579e981ddcbe88c",
     "url": "/index.html"
   },
   {
-    "revision": "688a13289761f26537f9",
+    "revision": "237ae799ebd3b8ee3772",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "8183b172ed5ddbf59d8d",
+    "revision": "ac66419d0f58b9f9f3ea",
     "url": "/static/css/4.d7ceb645.chunk.css"
   },
   {
-    "revision": "31aa2d140e5debbb9e3a",
-    "url": "/static/css/main.1a6005f5.chunk.css"
+    "revision": "9d9d310aeaac6388fcf8",
+    "url": "/static/css/main.52086d0c.chunk.css"
   },
   {
-    "revision": "cb6c18120d973836ac2e",
-    "url": "/static/js/2.691e1cfb.chunk.js"
+    "revision": "d8415bf955b4316af27e",
+    "url": "/static/js/2.7d0ec573.chunk.js"
   },
   {
     "revision": "b045256696e9edb485ef902b6be54c14",
-    "url": "/static/js/2.691e1cfb.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7d0ec573.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "688a13289761f26537f9",
-    "url": "/static/js/3.4171d6e2.chunk.js"
+    "revision": "237ae799ebd3b8ee3772",
+    "url": "/static/js/3.385f5f2b.chunk.js"
   },
   {
-    "revision": "8183b172ed5ddbf59d8d",
-    "url": "/static/js/4.802c9711.chunk.js"
+    "revision": "ac66419d0f58b9f9f3ea",
+    "url": "/static/js/4.fbd2f0a2.chunk.js"
   },
   {
-    "revision": "31aa2d140e5debbb9e3a",
-    "url": "/static/js/main.bcc4f508.chunk.js"
+    "revision": "9d9d310aeaac6388fcf8",
+    "url": "/static/js/main.ff5f9318.chunk.js"
   },
   {
-    "revision": "8bc58d203c8f872bd358",
-    "url": "/static/js/runtime-main.7a2ae303.js"
+    "revision": "5fc7cfaac71ad2fd894d",
+    "url": "/static/js/runtime-main.fddc0dbe.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "5dba203162d0f27f79cde0019dff0c54",
+    "url": "/static/media/DCDetourProfile.5dba2031.png"
+  },
+  {
+    "revision": "cde4fb567872712b960a7ca715133767",
+    "url": "/static/media/HULogo.cde4fb56.png"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
@@ -58,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "51cf7192327488da3d2a171280680c16",
     "url": "/static/media/contactMailDark.51cf7192.svg"
+  },
+  {
+    "revision": "4b9366850c5139088eff431bbb72c1ed",
+    "url": "/static/media/cwlogo.4b936685.webp"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
@@ -92,16 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/melo.a36224e1.png"
   },
   {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
     "url": "/static/media/pwaLogo.ee62cb58.webp"
-  },
-  {
-    "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
-    "url": "/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
