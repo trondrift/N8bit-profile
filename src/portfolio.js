@@ -142,7 +142,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2009 - April 2012",
       descBullets: [
-        "Selected out of thousands of students to participated in national programming competitions to represent the school in 2011 and 2012"
+        "Selected to participated in national programming competitions to represent the school in 2011 and 2012"
       ]
     },
     {
@@ -235,17 +235,30 @@ const openSource = {
 // Some big projects you have worked on
 
 const artistProjects = {
-  title: "Profile Projects",
-  subtitle: "WEB DESIGN FOR ARTISTS, MUSICIANS, AND CREATIVES",
+  title: "Web Designer",
+  subtitle: "FOR ARTISTS, MUSICIANS, AND CREATIVES",
   projects: [
     {
       image: require("./assets/images/DCDetourProfile.png"),
       projectName: "Danielle Cosby",
-      projectDesc: "Musician / Music Manager / Songwriter / Creative",
+      projectDesc:
+        "Official website of Danielle Cosby Musician / Music Manager / Songwriter / Creative.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://daniellecosby.com/"
+          url: "https://daniellecosby.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/WHcombo.png"),
+      projectName: "Nickolas Wheeler",
+      projectDesc:
+        "Official website of writer and producer Nickolas Wheeler, guitarist of the All-American Rejects and Wheelhouse Studios owner.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://nickolaswheeler.com/"
         }
       ]
     },
@@ -253,22 +266,23 @@ const artistProjects = {
       image: require("./assets/images/SSLogo.png"),
       projectName: "The Soul Syndicate",
       projectDesc:
-        "The Midwest's can't miss soul-infused entertainment experience",
+        "Official website of The Soul Syndicate, The Midwest's can't miss soul-infused entertainment experience.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://thesoulsyndicate.com/"
+          url: "https://thesoulsyndicate.com/"
         }
       ]
     },
     {
       image: require("./assets/images/melo.png"),
       projectName: "Melophobix",
-      projectDesc: "Cage-Free Punk Funk from Grand Rapids, MI",
+      projectDesc:
+        "Official website of Melophobix, cage-free punk funk from Grand Rapids, MI.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://melophobix.com/"
+          url: "https://melophobix.com/"
         }
       ]
     }
@@ -277,8 +291,8 @@ const artistProjects = {
 };
 
 const bigProjects = {
-  title: "Independent Projects",
-  subtitle: "WEBMASTER FOR STARTUPS, SMALL BUSINESSES, AND NON-PROFITS",
+  title: "Consultant",
+  subtitle: "FOR STARTUPS, SMALL BUSINESSES, AND NON-PROFITS",
   projects: [
     {
       image: require("./assets/images/cwlogo.webp"),
@@ -397,15 +411,13 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  title: "DISCORD",
+  subtitle: emoji("I HELP RUN A THINK TANK SERVER FOR YOUNG PROFESSIONALS"),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      title: "Nullptr",
+      subtitle: "Share, Build, Play, Learn",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
@@ -416,13 +428,15 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: emoji("Podcasts 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MUSIC AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1336460656&color=ff5500",
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1305809992&color=ff5500"
   ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
