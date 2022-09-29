@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/N8bit-profile/static/css/main.d89a87aa.chunk.css",
-    "main.js": "/N8bit-profile/static/js/main.e070772f.chunk.js",
-    "main.js.map": "/N8bit-profile/static/js/main.e070772f.chunk.js.map",
+    "main.js": "/N8bit-profile/static/js/main.fe5d61be.chunk.js",
+    "main.js.map": "/N8bit-profile/static/js/main.fe5d61be.chunk.js.map",
     "runtime-main.js": "/N8bit-profile/static/js/runtime-main.48dec439.js",
     "runtime-main.js.map": "/N8bit-profile/static/js/runtime-main.48dec439.js.map",
     "static/js/2.8c953dba.chunk.js": "/N8bit-profile/static/js/2.8c953dba.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.6394435e.chunk.js": "/N8bit-profile/static/js/4.6394435e.chunk.js",
     "static/js/4.6394435e.chunk.js.map": "/N8bit-profile/static/js/4.6394435e.chunk.js.map",
     "index.html": "/N8bit-profile/index.html",
-    "precache-manifest.1def432ad1860ab80a874883b258b250.js": "/N8bit-profile/precache-manifest.1def432ad1860ab80a874883b258b250.js",
+    "precache-manifest.9f6ba5dc1342724471dcc217adce0f15.js": "/N8bit-profile/precache-manifest.9f6ba5dc1342724471dcc217adce0f15.js",
     "service-worker.js": "/N8bit-profile/service-worker.js",
     "static/css/3.4d5083f8.chunk.css.map": "/N8bit-profile/static/css/3.4d5083f8.chunk.css.map",
     "static/css/4.fbe33953.chunk.css.map": "/N8bit-profile/static/css/4.fbe33953.chunk.css.map",
@@ -45,6 +45,6 @@
     "static/js/runtime-main.48dec439.js",
     "static/js/2.8c953dba.chunk.js",
     "static/css/main.d89a87aa.chunk.css",
-    "static/js/main.e070772f.chunk.js"
+    "static/js/main.fe5d61be.chunk.js"
   ]
 }
