@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/blackglasses.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -33,6 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
+  instagram: "https://www.instagram.com/natechansen/",
   github: "https://github.com/trondrift",
   linkedin: "https://www.linkedin.com/in/nate-hansen-b2853243/",
   gmail: "nhansen.dev@gmail.com",
@@ -235,7 +236,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const artistProjects = {
-  title: "Web Designer",
+  title: "Web Design",
   subtitle: "FOR ARTISTS, MUSICIANS, AND CREATIVES",
   projects: [
     {
@@ -276,7 +277,7 @@ const artistProjects = {
     },
     {
       image: require("./assets/images/melo.png"),
-      projectName: "Melophobix",
+      projectName: "Melophobix Music",
       projectDesc:
         "Official website of Melophobix, cage-free punk funk from Grand Rapids, MI.",
       footerLink: [
@@ -291,8 +292,8 @@ const artistProjects = {
 };
 
 const bigProjects = {
-  title: "Consultant",
-  subtitle: "FOR STARTUPS, SMALL BUSINESSES, AND NON-PROFITS",
+  title: "",
+  subtitle: "STARTUPS, SMALL BUSINESSES, AND NON-PROFITS",
   projects: [
     {
       image: require("./assets/images/cwlogo.webp"),
@@ -309,13 +310,25 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/HULogo.png"),
-      projectName: "Hark Up",
+      projectName: "Hark Up Music",
       projectDesc:
         "Michigan faith based talent organization that provides a diverse collection of musical programming well suited for both private and community centered events year round",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://harkup.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/hansenchartssq.png"),
+      projectName: "HansenCharts LLC",
+      projectDesc:
+        "Hansencharts creates unique musical ensemble arrangements for special events using the music of Justin Bieber, Coldplay, Sleeping At Last…",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://hansenchartsmusic.com/"
         }
       ]
     }
@@ -389,7 +402,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I love to find cool articles and teach others what I have learned.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -402,7 +415,7 @@ const blogSection = {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "React is a JavaScript library for building User Interfaces. It is maintained by Facebook as well as a community of individual developers and companies."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -410,16 +423,16 @@ const blogSection = {
 
 // Talks Sections
 
-const talkSection = {
-  title: "DISCORD",
-  subtitle: emoji("I HELP RUN A THINK TANK SERVER FOR YOUNG PROFESSIONALS"),
+const discordSection = {
+  title: "Discord",
+  subtitle: emoji("ADMIN OF A THINK TANK SERVER FOR YOUNG PROFESSIONALS"),
 
   talks: [
     {
       title: "Nullptr",
       subtitle: "Share, Build, Play, Learn",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      join_url: "https://discord.com",
+      register_url: "mailto:" + "nhansen.dev@gmail.com"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -471,7 +484,7 @@ export {
   artistProjects,
   achievementSection,
   blogSection,
-  talkSection,
+  discordSection as talkSection,
   podcastSection,
   contactInfo,
   twitterDetails,

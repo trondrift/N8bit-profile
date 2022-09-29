@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-//import landingPerson from "../../assets/lottie/landingPerson";
+import landingPerson from "../../assets/lottie/landingPerson";
 //import musicPerson from "../../assets/lottie/39134-music";
 import greetingPerson from "../../assets/lottie/creativity-pana.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -54,11 +54,19 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={greetingPerson} />
-            ) : (
+              // <DisplayLottie animationData={greetingPerson} />
               <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                alt="profile pic"
+                src={require("../../assets/images/profile-pic5.png")}
+              ></img>
+            ) : (
+              // <img
+              //   alt="man sitting on table"
+              //   src={require("../../assets/images/manOnTable.svg")}
+              // ></img>
+              <img
+                alt="profile pic"
+                src={require("../../assets/images/profile-pic5.png")}
               ></img>
             )}
           </div>
