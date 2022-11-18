@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49b70882885d51162473a19a46a307b3",
+    "revision": "76f3d245665e29197fe9311d2a47cccd",
     "url": "/N8bit-profile/index.html"
   },
   {
-    "revision": "fad2d7b2d14437bd82e2",
+    "revision": "afa9533be60f2687c2aa",
     "url": "/N8bit-profile/static/css/3.4d5083f8.chunk.css"
   },
   {
-    "revision": "a009f39bd15ea25800fe",
+    "revision": "08f1298b26c9b06496e2",
     "url": "/N8bit-profile/static/css/4.fbe33953.chunk.css"
   },
   {
-    "revision": "58d471e50fc45919de1f",
-    "url": "/N8bit-profile/static/css/main.697b965f.chunk.css"
+    "revision": "8d381bbbe4496eda8a08",
+    "url": "/N8bit-profile/static/css/main.60dacf14.chunk.css"
   },
   {
-    "revision": "997cb434da1ea62d27f2",
-    "url": "/N8bit-profile/static/js/2.5f273777.chunk.js"
+    "revision": "1c3fff09cb8ff80645b7",
+    "url": "/N8bit-profile/static/js/2.80b12001.chunk.js"
   },
   {
     "revision": "b045256696e9edb485ef902b6be54c14",
-    "url": "/N8bit-profile/static/js/2.5f273777.chunk.js.LICENSE.txt"
+    "url": "/N8bit-profile/static/js/2.80b12001.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fad2d7b2d14437bd82e2",
-    "url": "/N8bit-profile/static/js/3.05e24744.chunk.js"
+    "revision": "afa9533be60f2687c2aa",
+    "url": "/N8bit-profile/static/js/3.647a54e8.chunk.js"
   },
   {
-    "revision": "a009f39bd15ea25800fe",
-    "url": "/N8bit-profile/static/js/4.e8366b4b.chunk.js"
+    "revision": "08f1298b26c9b06496e2",
+    "url": "/N8bit-profile/static/js/4.1687759f.chunk.js"
   },
   {
-    "revision": "58d471e50fc45919de1f",
-    "url": "/N8bit-profile/static/js/main.cd626c3e.chunk.js"
+    "revision": "8d381bbbe4496eda8a08",
+    "url": "/N8bit-profile/static/js/main.606ecb06.chunk.js"
   },
   {
-    "revision": "5b9730edea7155f37004",
-    "url": "/N8bit-profile/static/js/runtime-main.2b433012.js"
+    "revision": "0d295a7d118b2c6093a2",
+    "url": "/N8bit-profile/static/js/runtime-main.118e9ded.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -110,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1268cf878f3cba995e54b2e5b6e028dd",
     "url": "/N8bit-profile/static/media/profile-pic5.1268cf87.png"
+  },
+  {
+    "revision": "46005107eea7b7a9c48bda011a1066f4",
+    "url": "/N8bit-profile/static/media/profile-picsax.46005107.png"
   },
   {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
