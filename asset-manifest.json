@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/N8bit-profile/static/css/main.d89a87aa.chunk.css",
-    "main.js": "/N8bit-profile/static/js/main.74ff7682.chunk.js",
-    "main.js.map": "/N8bit-profile/static/js/main.74ff7682.chunk.js.map",
-    "runtime-main.js": "/N8bit-profile/static/js/runtime-main.48dec439.js",
-    "runtime-main.js.map": "/N8bit-profile/static/js/runtime-main.48dec439.js.map",
-    "static/js/2.8c953dba.chunk.js": "/N8bit-profile/static/js/2.8c953dba.chunk.js",
-    "static/js/2.8c953dba.chunk.js.map": "/N8bit-profile/static/js/2.8c953dba.chunk.js.map",
+    "main.css": "/N8bit-profile/static/css/main.697b965f.chunk.css",
+    "main.js": "/N8bit-profile/static/js/main.cd626c3e.chunk.js",
+    "main.js.map": "/N8bit-profile/static/js/main.cd626c3e.chunk.js.map",
+    "runtime-main.js": "/N8bit-profile/static/js/runtime-main.2b433012.js",
+    "runtime-main.js.map": "/N8bit-profile/static/js/runtime-main.2b433012.js.map",
+    "static/js/2.5f273777.chunk.js": "/N8bit-profile/static/js/2.5f273777.chunk.js",
+    "static/js/2.5f273777.chunk.js.map": "/N8bit-profile/static/js/2.5f273777.chunk.js.map",
     "static/css/3.4d5083f8.chunk.css": "/N8bit-profile/static/css/3.4d5083f8.chunk.css",
-    "static/js/3.62f55009.chunk.js": "/N8bit-profile/static/js/3.62f55009.chunk.js",
-    "static/js/3.62f55009.chunk.js.map": "/N8bit-profile/static/js/3.62f55009.chunk.js.map",
+    "static/js/3.05e24744.chunk.js": "/N8bit-profile/static/js/3.05e24744.chunk.js",
+    "static/js/3.05e24744.chunk.js.map": "/N8bit-profile/static/js/3.05e24744.chunk.js.map",
     "static/css/4.fbe33953.chunk.css": "/N8bit-profile/static/css/4.fbe33953.chunk.css",
-    "static/js/4.6394435e.chunk.js": "/N8bit-profile/static/js/4.6394435e.chunk.js",
-    "static/js/4.6394435e.chunk.js.map": "/N8bit-profile/static/js/4.6394435e.chunk.js.map",
+    "static/js/4.e8366b4b.chunk.js": "/N8bit-profile/static/js/4.e8366b4b.chunk.js",
+    "static/js/4.e8366b4b.chunk.js.map": "/N8bit-profile/static/js/4.e8366b4b.chunk.js.map",
     "index.html": "/N8bit-profile/index.html",
-    "precache-manifest.d5ffddae8e5e0ed9f31751555725e699.js": "/N8bit-profile/precache-manifest.d5ffddae8e5e0ed9f31751555725e699.js",
+    "precache-manifest.a17e94bd5d724439a39329477c011ec8.js": "/N8bit-profile/precache-manifest.a17e94bd5d724439a39329477c011ec8.js",
     "service-worker.js": "/N8bit-profile/service-worker.js",
     "static/css/3.4d5083f8.chunk.css.map": "/N8bit-profile/static/css/3.4d5083f8.chunk.css.map",
     "static/css/4.fbe33953.chunk.css.map": "/N8bit-profile/static/css/4.fbe33953.chunk.css.map",
-    "static/css/main.d89a87aa.chunk.css.map": "/N8bit-profile/static/css/main.d89a87aa.chunk.css.map",
-    "static/js/2.8c953dba.chunk.js.LICENSE.txt": "/N8bit-profile/static/js/2.8c953dba.chunk.js.LICENSE.txt",
+    "static/css/main.697b965f.chunk.css.map": "/N8bit-profile/static/css/main.697b965f.chunk.css.map",
+    "static/js/2.5f273777.chunk.js.LICENSE.txt": "/N8bit-profile/static/js/2.5f273777.chunk.js.LICENSE.txt",
     "static/media/index.css": "/N8bit-profile/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/DCDetourProfile.png": "/N8bit-profile/static/media/DCDetourProfile.5dba2031.png",
     "static/media/HULogo.png": "/N8bit-profile/static/media/HULogo.cde4fb56.png",
@@ -42,9 +42,9 @@
     "static/media/TalkCard.scss": "/N8bit-profile/static/media/talksCardBack.e95d1056.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.48dec439.js",
-    "static/js/2.8c953dba.chunk.js",
-    "static/css/main.d89a87aa.chunk.css",
-    "static/js/main.74ff7682.chunk.js"
+    "static/js/runtime-main.2b433012.js",
+    "static/js/2.5f273777.chunk.js",
+    "static/css/main.697b965f.chunk.css",
+    "static/js/main.cd626c3e.chunk.js"
   ]
 }
