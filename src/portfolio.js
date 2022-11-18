@@ -59,9 +59,7 @@ const skillsSection = {
       "⚡ Web design for businesses, non-profits, recording studios, and high profile musicians"
     ),
     emoji("⚡ Integration of branding and ecommerce strategies for startups"),
-    emoji(
-      "🎷 Help other musicians improve their tech stack"
-    )
+    emoji("🎷 Help other musicians improve their tech stack")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -178,7 +176,7 @@ const techStack = {
     {
       Stack: "Backend",
       progressPercentage: "60%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -351,8 +349,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Google Code-In Finalist",
-      subtitle:
-        "First saxophonist to be selected as Google Code-in Finalist.",
+      subtitle: "First saxophonist to be selected as Google Code-in Finalist.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
