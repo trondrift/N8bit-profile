@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Nathan Hansen",
-  title: "Hi all, I'm Nate",
+  title: "Hi, I'm Nate",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -56,11 +56,11 @@ const skillsSection = {
       "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications"
     ),
     emoji(
-      "⚡ Web design for high profile musicians, recording studios, non-profits, and businesses"
+      "⚡ Web design for businesses, non-profits, recording studios, and high profile musicians"
     ),
     emoji("⚡ Integration of branding and ecommerce strategies for startups"),
     emoji(
-      "⚡ I am also an active musician and have created a business around helping other musicians establish themselves on the web"
+      "🎷 Help other musicians improve their tech stack"
     )
   ],
 
@@ -172,9 +172,13 @@ const techStack = {
       progressPercentage: "75%"
     },
     {
+      Stack: "Saxophone",
+      progressPercentage: "60%"
+    },
+    {
       Stack: "Backend",
       progressPercentage: "60%"
-    }
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -202,7 +206,7 @@ const workExperiences = {
       company: "Hanstech LLC",
       companylogo: require("./assets/images/hanstechLLC2.png"),
       date: "May 2020 – Present",
-      desc: "Managing software solutions for high profile musicians, startups, and non-profits",
+      desc: "Managing software solutions for businesses, non-profits, recording studios, and high profile musicians",
       descBullets: ["Web Design", "Ecommerce", "Web Frameworks", "Custom Tools"]
     }
     // {
@@ -340,9 +344,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Goals 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Awards and Some Cool Stuff that I am working towards !",
 
   achievementsCards: [
     {
@@ -358,7 +362,8 @@ const achievementSection = {
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: ""
+          //url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
           name: "Google Code-in Blog",
@@ -369,7 +374,7 @@ const achievementSection = {
     {
       title: "Google Assistant Action",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Developing a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -382,14 +387,14 @@ const achievementSection = {
 
     {
       title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Complete Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://www.gentex.com/"
         }
       ]
     }
@@ -402,7 +407,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to find cool articles and teach others what I have learned.",
+    "With a Love for Developing cool stuff, I enjoy finding useful articles that can teach others about what I have learned.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -441,13 +446,13 @@ const discordSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcasts 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MUSIC AND TECHNOLOGY",
+  title: emoji("Podcasts & Tunage 🎙️"),
+  subtitle: "I LOVE TO PERFORM AND TALK ABOUT MUSIC",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1336460656&color=ff5500",
-    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1305809992&color=ff5500"
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/149600655&color=ff5500"
   ],
 
   display: true // Set false to hide this section, defaults to true
@@ -457,14 +462,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "+1-6164855160",
   email_address: "nhansen.dev@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "melophobixmusic", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
