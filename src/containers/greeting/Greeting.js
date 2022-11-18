@@ -14,6 +14,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const {isMusicianMode} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -28,7 +29,9 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">
+                  {isMusicianMode ? emoji("🎷") : emoji("👋")}
+                </span>
               </h1>
               <p
                 className={
@@ -54,19 +57,23 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              // <DisplayLottie animationData={greetingPerson} />
+              //<DisplayLottie animationData={greetingPerson} />
               <img
                 alt="profile pic"
-                src={require("../../assets/images/profile-pic5.png")}
+                src={
+                  isMusicianMode
+                    ? require("../../assets/images/profile-picsax.png")
+                    : require("../../assets/images/profile-pic5.png")
+                }
               ></img>
             ) : (
-              // <img
-              //   alt="man sitting on table"
-              //   src={require("../../assets/images/manOnTable.svg")}
-              // ></img>
               <img
                 alt="profile pic"
-                src={require("../../assets/images/profile-pic5.png")}
+                src={
+                  isMusicianMode
+                    ? require("../../assets/images/profile-picsax.png")
+                    : require("../../assets/images/profile-pic5.png")
+                }
               ></img>
             )}
           </div>

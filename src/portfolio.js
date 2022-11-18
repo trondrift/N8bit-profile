@@ -5,6 +5,9 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/blackglasses.json"; // Rename to your file name for custom animation
 
+//const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+//const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+
 // Splash Screen
 
 const splashScreen = {
@@ -16,7 +19,7 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true // Set to false to use static profile
 };
 
 const greeting = {
@@ -427,14 +430,14 @@ const blogSection = {
 
 const discordSection = {
   title: "Discord",
-  subtitle: emoji("ADMIN OF A THINK TANK SERVER FOR YOUNG PROFESSIONALS"),
+  subtitle: emoji("HIVE MIND SERVER ADMIN"),
 
   talks: [
     {
       title: "Nullptr",
       subtitle: "Share, Build, Play, Learn",
       join_url: "https://discord.com",
-      register_url: "mailto:" + "nhansen.dev@gmail.com"
+      register_url: "mailto:nhansen.dev@gmail.com"
     }
   ],
   display: true // Set false to hide this section, defaults to true

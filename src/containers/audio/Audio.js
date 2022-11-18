@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import "./Audio.scss";
-import {audioSection as audioSection} from "../../portfolio";
+import {audioSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 

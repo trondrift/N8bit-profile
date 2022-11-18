@@ -18,6 +18,7 @@ export default function TalkCard({talkDetails}) {
             src="https://discord.com/widget?id=361602048975831040&theme=dark"
             maxWidth="30%"
             height="300"
+            title="discord"
             allowtransparency="true"
             frameborder="0"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"

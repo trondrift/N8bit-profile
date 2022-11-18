@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import "./Video.scss";
-import {videoSection as videoSection} from "../../portfolio";
+import {videoSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 

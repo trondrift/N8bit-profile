@@ -27,6 +27,10 @@ import "./Main.scss";
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isMusicianMode, setIsMusicianMode] = useLocalStorage(
+    "isMusicianMode",
+    false
+  );
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
@@ -46,9 +50,20 @@ const Main = () => {
     setIsDark(!isDark);
   };
 
+  const changeProfession = () => {
+    setIsMusicianMode(!isMusicianMode);
+  };
+
   return (
     <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+      <StyleProvider
+        value={{
+          isDark: isDark,
+          changeTheme: changeTheme,
+          isMusicianMode: isMusicianMode,
+          changeProfession: changeProfession
+        }}
+      >
         {isShowingSplashAnimation && splashScreen.enabled ? (
           <SplashScreen />
         ) : (

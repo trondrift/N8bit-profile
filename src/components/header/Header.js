@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import ToggleSwitchMusic from "../ToggleSwitchMusic/ToggleSwitchMusic";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
@@ -16,6 +17,7 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const {isMusicianMode} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewMusic = podcastSection.display;
@@ -32,6 +34,7 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
+
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
@@ -78,6 +81,12 @@ function Header() {
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
               <ToggleSwitch />
+            </a>
+          </li>
+          <li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a>
+              <ToggleSwitchMusic />
             </a>
           </li>
         </ul>
