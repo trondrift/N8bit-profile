@@ -21,7 +21,7 @@ const ToggleSwitchMusic = () => {
             setChecked(!isChecked);
           }}
         />
-        <span className="slider"></span>
+        <span className="slider round"></span>
       </label>
       <span role="img" aria-hidden="true">
         🎷

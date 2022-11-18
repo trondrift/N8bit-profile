@@ -80,10 +80,10 @@ const Main = () => {
             <Achievement />
             <Blogs />
             <Talks />
-            <Twitter />
             <Podcast />
             <Video />
             <Audio />
+            <Twitter />
             <Profile />
             <Footer />
             <ScrollToTopButton />

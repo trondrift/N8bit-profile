@@ -473,7 +473,7 @@ const videoSection = {
 
 const audioSection = {
   title: emoji("Audio"),
-  subtitle: "Some tracks I have been recorded on",
+  subtitle: "Some tracks where I have performance credits",
 
   // Please Provide with Your Spotify embeded Link
   audio: [
@@ -482,8 +482,13 @@ const audioSection = {
     "https://open.spotify.com/embed/track/5lG6SU0Jt4J50eF5Q48S1f?utm_source=generator",
     "https://open.spotify.com/embed/track/6aR8T8ZJJ2P6qg7Cx9zspU?utm_source=generator",
     "https://open.spotify.com/embed/track/6DzHRiMEzc8WpYTEVHjPcl?utm_source=generator",
+    "https://open.spotify.com/embed/track/2rmzeIU64k9YnTkBBfzfAe?utm_source=generator",
     "https://open.spotify.com/embed/track/69TAsYeIAUCWC4TZHHDiPr?utm_source=generator",
-    "https://open.spotify.com/embed/track/5sHkx2mL4YcaRpMzj4ZCFi?utm_source=generator"
+    "https://open.spotify.com/embed/track/5sHkx2mL4YcaRpMzj4ZCFi?utm_source=generator",
+    //"https://open.spotify.com/embed/track/0RAbEA1Oy5yfrSEoPZu8mX?utm_source=generator&theme=0",
+    "https://open.spotify.com/embed/track/46zmfi8fZwmri9UQdkJzt3?utm_source=generator",
+    "https://open.spotify.com/embed/track/1qJ0JpbJ9IrUQ05OTWM6oJ?utm_source=generator",
+    "https://open.spotify.com/embed/track/5zCcW1AZ3DNzV6PiyUYNX3?utm_source=generator"
   ],
 
   display: true // Set false to hide this section, defaults to true
