@@ -1,0 +1,40 @@
+@import "../../_globalColor";
+
+.audio-header-title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 0px;
+}
+
+.audio {
+  width: 600px;
+  height: 315px;
+}
+
+.audio-main-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 1rem 1rem;
+}
+.subTitle {
+  color: $subTitle;
+}
+
+@media (max-width: 768px) {
+  .audio-header-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .audio-header-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .audio {
+    width: 300px;
+  }
+  .audio-main-div {
+    text-align: center;
+  }
+}

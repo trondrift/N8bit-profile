@@ -455,6 +455,37 @@ const podcastSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const videoSection = {
+  title: emoji("Videos"),
+  subtitle: "Some content I have been featured in",
+
+  // Please Provide with Your Podcast embeded Link
+  videos: [
+    "https://www.youtube.com/embed/qdorwHWehIE",
+    "https://www.youtube.com/embed/vlg94RX-7mg"
+  ],
+
+  display: true // Set false to hide this section, defaults to true
+};
+
+const audioSection = {
+  title: emoji("Audio"),
+  subtitle: "Some tracks I have been recorded on",
+
+  // Please Provide with Your Spotify embeded Link
+  audio: [
+    "https://open.spotify.com/embed/track/3wD3SwqMAyrd9no1KhEXKn?utm_source=generator&theme=0",
+    "https://open.spotify.com/embed/track/04GPbiEoU75QfLTjj3EBZa?utm_source=generator",
+    "https://open.spotify.com/embed/track/5lG6SU0Jt4J50eF5Q48S1f?utm_source=generator",
+    "https://open.spotify.com/embed/track/6aR8T8ZJJ2P6qg7Cx9zspU?utm_source=generator",
+    "https://open.spotify.com/embed/track/6DzHRiMEzc8WpYTEVHjPcl?utm_source=generator",
+    "https://open.spotify.com/embed/track/69TAsYeIAUCWC4TZHHDiPr?utm_source=generator",
+    "https://open.spotify.com/embed/track/5sHkx2mL4YcaRpMzj4ZCFi?utm_source=generator"
+  ],
+
+  display: true // Set false to hide this section, defaults to true
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -488,6 +519,8 @@ export {
   blogSection,
   discordSection as talkSection,
   podcastSection,
+  videoSection,
+  audioSection,
   contactInfo,
   twitterDetails,
   isHireable
