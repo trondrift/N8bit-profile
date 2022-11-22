@@ -1,4 +1,5 @@
 import React from "react";
+import ToggleSwitchMusic from "../../components/ToggleSwitchMusic/ToggleSwitchMusic";
 import "./Top.scss";
 
 export default function Top() {
@@ -27,6 +28,9 @@ export default function Top() {
   return (
     <button onClick={TopEvent} id="topButton" title="Go to top">
       <i className="fas fa-hand-point-up" aria-hidden="true"></i>
+      <div style={{paddingTop: "20px"}}>
+        <ToggleSwitchMusic />
+      </div>
     </button>
   );
 }

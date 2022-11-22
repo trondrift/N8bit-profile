@@ -83,12 +83,6 @@ function Header() {
               <ToggleSwitch />
             </a>
           </li>
-          <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
-              <ToggleSwitchMusic />
-            </a>
-          </li>
         </ul>
       </header>
     </Headroom>

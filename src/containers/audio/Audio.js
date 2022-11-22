@@ -42,7 +42,7 @@ export default function Audio() {
                   //scrolling="no"
                   title="Spotify audio player"
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
+                  //loading="lazy"
                 ></iframe>
               </div>
             );
