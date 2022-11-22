@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61e6821632457ac273d6e603263294a2",
+    "revision": "26cc8c38a39f1f3b72ff039eb94685cb",
     "url": "/N8bit-profile/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/N8bit-profile/static/css/4.fbe33953.chunk.css"
   },
   {
-    "revision": "03958030db040546f208",
-    "url": "/N8bit-profile/static/css/main.60dacf14.chunk.css"
+    "revision": "48d923c855de94b5fd7d",
+    "url": "/N8bit-profile/static/css/main.b9911dd7.chunk.css"
   },
   {
     "revision": "1c3fff09cb8ff80645b7",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/N8bit-profile/static/js/4.1687759f.chunk.js"
   },
   {
-    "revision": "03958030db040546f208",
-    "url": "/N8bit-profile/static/js/main.595716e0.chunk.js"
+    "revision": "48d923c855de94b5fd7d",
+    "url": "/N8bit-profile/static/js/main.a8f15169.chunk.js"
   },
   {
     "revision": "0d295a7d118b2c6093a2",
