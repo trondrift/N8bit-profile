@@ -9,8 +9,8 @@ const ToggleSwitchMusic = () => {
 
   return (
     <div style={{display: "flex"}}>
-      <span role="img" aria-hidden="true">
-        👔
+      <span role="img" aria-hidden="true" style={{paddingRight: "15px"}}>
+        🧑‍💼
       </span>
       <label className="switch">
         <input
@@ -23,7 +23,7 @@ const ToggleSwitchMusic = () => {
         />
         <span className="slider round"></span>
       </label>
-      <span role="img" aria-hidden="true">
+      <span role="img" aria-hidden="true" style={{paddingLeft: "15px"}}>
         🎷
       </span>
     </div>

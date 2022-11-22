@@ -9,6 +9,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
+  const {isMusicianMode} = useContext(StyleContext);
   if (!skillsSection.display) {
     return null;
   }
@@ -41,24 +42,41 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              {isMusicianMode
+                ? skillsSection.subTitleMusic
+                : skillsSection.subTitle}
             </p>
             <SoftwareSkill />
             <div>
-              {skillsSection.skills.map((skills, i) => {
-                return (
-                  <p
-                    key={i}
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {skills}
-                  </p>
-                );
-              })}
+              {isMusicianMode
+                ? skillsSection.skillsMusic.map((skills, i) => {
+                    return (
+                      <p
+                        key={i}
+                        className={
+                          isDark
+                            ? "dark-mode subTitle skills-text"
+                            : "subTitle skills-text"
+                        }
+                      >
+                        {skills}
+                      </p>
+                    );
+                  })
+                : skillsSection.skills.map((skills, i) => {
+                    return (
+                      <p
+                        key={i}
+                        className={
+                          isDark
+                            ? "dark-mode subTitle skills-text"
+                            : "subTitle skills-text"
+                        }
+                      >
+                        {skills}
+                      </p>
+                    );
+                  })}
             </div>
           </div>
         </Fade>

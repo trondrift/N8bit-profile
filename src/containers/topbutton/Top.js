@@ -1,6 +1,8 @@
 import React from "react";
-import ToggleSwitchMusic from "../../components/ToggleSwitchMusic/ToggleSwitchMusic";
 import "./Top.scss";
+
+import ToggleSwitchMusic from "../../components/ToggleSwitchMusic/ToggleSwitchMusic";
+import "../modebutton/Mode.scss";
 
 export default function Top() {
   function TopEvent() {
@@ -14,8 +16,10 @@ export default function Top() {
       document.documentElement.scrollTop > 20
     ) {
       document.getElementById("topButton").style.visibility = "visible";
+      document.getElementById("modeButton").style.visibility = "visible";
     } else {
       document.getElementById("topButton").style.visibility = "hidden";
+      document.getElementById("modeButton").style.visibility = "hidden";
     }
   }
   window.onscroll = function () {
@@ -26,11 +30,13 @@ export default function Top() {
   }; //To make sure that this button is not visible at starting.
   // When the user clicks on the button, scroll to the top of the document
   return (
-    <button onClick={TopEvent} id="topButton" title="Go to top">
-      <i className="fas fa-hand-point-up" aria-hidden="true"></i>
-      <div style={{paddingTop: "20px"}}>
+    <div>
+      <button onClick={TopEvent} id="topButton" title="Go to top">
+        <i className="fas fa-hand-point-up" aria-hidden="true"></i>
+      </button>
+      <button onClick={TopEvent} id="modeButton" title="Go to mode">
         <ToggleSwitchMusic />
-      </div>
-    </button>
+      </button>
+    </div>
   );
 }

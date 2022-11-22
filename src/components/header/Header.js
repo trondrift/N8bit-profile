@@ -17,7 +17,6 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const {isMusicianMode} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewMusic = podcastSection.display;

@@ -40,16 +40,16 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {isMusicianMode ? greeting.subTitleMusic : greeting.subTitle}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <Button
-                    text="See my resume"
-                    newTab={true}
-                    href={greeting.resumeLink}
+                    text={isMusicianMode ? "My Music" : "See my resume"}
+                    newTab={isMusicianMode ? false : true}
+                    href={isMusicianMode ? "#music" : greeting.resumeLink}
                   />
                 )}
               </div>

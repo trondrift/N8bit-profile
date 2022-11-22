@@ -5,9 +5,6 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/loadingatom.json"; // Rename to your file name for custom animation
 
-//const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-//const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
-
 // Splash Screen
 
 const splashScreen = {
@@ -27,6 +24,9 @@ const greeting = {
   title: "Hi, I'm Nate",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+  ),
+  subTitleMusic: emoji(
+    "A passionate Sax player 🎵 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1YqXXcEZJtlpmwo_oPrl-dMs_KW3N_j-wXfKxnUGksbg/edit?usp=sharing", // Set to empty to hide the button
@@ -53,7 +53,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO DESIGN YOUR WEBSITE",
+  subTitle:
+    "FULL STACK DEVELOPER WITH PASSION WHO WANTS TO DESIGN YOUR WEBSITE",
+  subTitleMusic:
+    "FULL STACK DEVELOPER / MUSICIAN WHO WANTS TO DESIGN YOUR WEBSITE",
   skills: [
     emoji(
       "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications"
@@ -62,6 +65,14 @@ const skillsSection = {
       "⚡ Web design for businesses, non-profits, recording studios, and high profile musicians"
     ),
     emoji("⚡ Integration of branding and ecommerce strategies for startups"),
+    emoji("🎷 Help other musicians improve their tech stack")
+  ],
+  skillsMusic: [
+    emoji(
+      "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications for musicians"
+    ),
+    emoji("⚡ Web design for recording studios, and independent artists"),
+    emoji("⚡ Integration of branding and ecommerce strategies for new bands"),
     emoji("🎷 Help other musicians improve their tech stack")
   ],
 
