@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/N8bit-profile/static/css/main.3a02cc77.chunk.css",
+    "main.css": "/N8bit-profile/static/css/main.c14ead6f.chunk.css",
     "main.js": "/N8bit-profile/static/js/main.a8f15169.chunk.js",
     "main.js.map": "/N8bit-profile/static/js/main.a8f15169.chunk.js.map",
     "runtime-main.js": "/N8bit-profile/static/js/runtime-main.118e9ded.js",
@@ -14,11 +14,11 @@
     "static/js/4.1687759f.chunk.js": "/N8bit-profile/static/js/4.1687759f.chunk.js",
     "static/js/4.1687759f.chunk.js.map": "/N8bit-profile/static/js/4.1687759f.chunk.js.map",
     "index.html": "/N8bit-profile/index.html",
-    "precache-manifest.2d8d47322ed9ed0a4f74df7010071354.js": "/N8bit-profile/precache-manifest.2d8d47322ed9ed0a4f74df7010071354.js",
+    "precache-manifest.3242cb43fcc9609f76b9a63b909a26a6.js": "/N8bit-profile/precache-manifest.3242cb43fcc9609f76b9a63b909a26a6.js",
     "service-worker.js": "/N8bit-profile/service-worker.js",
     "static/css/3.4d5083f8.chunk.css.map": "/N8bit-profile/static/css/3.4d5083f8.chunk.css.map",
     "static/css/4.fbe33953.chunk.css.map": "/N8bit-profile/static/css/4.fbe33953.chunk.css.map",
-    "static/css/main.3a02cc77.chunk.css.map": "/N8bit-profile/static/css/main.3a02cc77.chunk.css.map",
+    "static/css/main.c14ead6f.chunk.css.map": "/N8bit-profile/static/css/main.c14ead6f.chunk.css.map",
     "static/js/2.80b12001.chunk.js.LICENSE.txt": "/N8bit-profile/static/js/2.80b12001.chunk.js.LICENSE.txt",
     "static/media/index.css": "/N8bit-profile/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/DCDetourProfile.png": "/N8bit-profile/static/media/DCDetourProfile.5dba2031.png",
@@ -45,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.118e9ded.js",
     "static/js/2.80b12001.chunk.js",
-    "static/css/main.3a02cc77.chunk.css",
+    "static/css/main.c14ead6f.chunk.css",
     "static/js/main.a8f15169.chunk.js"
   ]
 }
