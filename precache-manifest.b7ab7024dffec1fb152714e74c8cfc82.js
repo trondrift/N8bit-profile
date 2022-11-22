@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf2d26683ed72f1a19647bf6e2af7cb2",
+    "revision": "5677edf88d75d9864ae2495f6cfdc3c9",
     "url": "/N8bit-profile/index.html"
   },
   {
-    "revision": "afa9533be60f2687c2aa",
+    "revision": "00dd7ed537ad3e1a66a7",
     "url": "/N8bit-profile/static/css/3.4d5083f8.chunk.css"
   },
   {
-    "revision": "08f1298b26c9b06496e2",
+    "revision": "3e97c4858b11570f564a",
     "url": "/N8bit-profile/static/css/4.fbe33953.chunk.css"
   },
   {
-    "revision": "0416cffa6f59672d9ee2",
-    "url": "/N8bit-profile/static/css/main.c14ead6f.chunk.css"
+    "revision": "c3102118baffa2ce4ef2",
+    "url": "/N8bit-profile/static/css/main.13c76099.chunk.css"
   },
   {
-    "revision": "1c3fff09cb8ff80645b7",
-    "url": "/N8bit-profile/static/js/2.80b12001.chunk.js"
+    "revision": "85fc6a6ee9138949f767",
+    "url": "/N8bit-profile/static/js/2.a1c48c0d.chunk.js"
   },
   {
     "revision": "b045256696e9edb485ef902b6be54c14",
-    "url": "/N8bit-profile/static/js/2.80b12001.chunk.js.LICENSE.txt"
+    "url": "/N8bit-profile/static/js/2.a1c48c0d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "afa9533be60f2687c2aa",
-    "url": "/N8bit-profile/static/js/3.647a54e8.chunk.js"
+    "revision": "00dd7ed537ad3e1a66a7",
+    "url": "/N8bit-profile/static/js/3.48433959.chunk.js"
   },
   {
-    "revision": "08f1298b26c9b06496e2",
-    "url": "/N8bit-profile/static/js/4.1687759f.chunk.js"
+    "revision": "3e97c4858b11570f564a",
+    "url": "/N8bit-profile/static/js/4.b50ca6db.chunk.js"
   },
   {
-    "revision": "0416cffa6f59672d9ee2",
-    "url": "/N8bit-profile/static/js/main.5805aeee.chunk.js"
+    "revision": "c3102118baffa2ce4ef2",
+    "url": "/N8bit-profile/static/js/main.ecb710e2.chunk.js"
   },
   {
-    "revision": "0d295a7d118b2c6093a2",
-    "url": "/N8bit-profile/static/js/runtime-main.118e9ded.js"
+    "revision": "6fe75d9c99c8df7d4ab5",
+    "url": "/N8bit-profile/static/js/runtime-main.923237bd.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
