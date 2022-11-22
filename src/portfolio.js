@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/blackglasses.json"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/loadingatom.json"; // Rename to your file name for custom animation
 
 //const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
 //const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
@@ -13,7 +13,7 @@ import splashAnimation from "./assets/lottie/blackglasses.json"; // Rename to yo
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 5000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -460,7 +460,7 @@ const podcastSection = {
 
 const videoSection = {
   title: emoji("Videos"),
-  subtitle: "Some content I have been featured in",
+  subtitle: "SOME CONTENT I'VE BEEN INVOLVED WITH",
 
   // Please Provide with Your Podcast embeded Link
   videos: [
@@ -473,7 +473,7 @@ const videoSection = {
 
 const audioSection = {
   title: emoji("Audio"),
-  subtitle: "Some tracks where I have performance credits",
+  subtitle: "SOME OF MY SAX WORK CAN BE FOUND HERE",
 
   // Please Provide with Your Spotify embeded Link
   audio: [

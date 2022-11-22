@@ -8,6 +8,10 @@
 
 .splash-animation-container {
   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .splash-title-container {
