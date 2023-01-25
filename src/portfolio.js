@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   subTitleMusic: emoji(
-    "A passionate Sax player 🎵 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Sax player 🎵 with experience building Web and Mobile sites using JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1YqXXcEZJtlpmwo_oPrl-dMs_KW3N_j-wXfKxnUGksbg/edit?usp=sharing", // Set to empty to hide the button
@@ -56,7 +56,7 @@ const skillsSection = {
   subTitle:
     "FULL STACK DEVELOPER WITH PASSION WHO WANTS TO DESIGN YOUR WEBSITE",
   subTitleMusic:
-    "FULL STACK DEVELOPER / MUSICIAN WHO WANTS TO DESIGN YOUR WEBSITE",
+    "FULL STACK DEVELOPER / MUSICIAN WHO SPECIALIZES IN WEB DESIGN",
   skills: [
     emoji(
       "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications"
@@ -184,11 +184,11 @@ const techStack = {
       progressPercentage: "75%"
     },
     {
-      Stack: "Saxophone",
+      Stack: "Backend",
       progressPercentage: "60%"
     },
     {
-      Stack: "Backend",
+      Stack: "Saxophone",
       progressPercentage: "60%"
     }
   ],
