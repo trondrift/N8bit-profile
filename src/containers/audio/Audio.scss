@@ -7,13 +7,14 @@
 }
 
 .audio {
-  width: 300px;
-  height: 315px;
+  width: 75%;
+  height: 500px;
+  //max-width: 610px;
 }
 
 .audio-main-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  //display: grid;
+  //grid-template-columns: repeat(auto-fit, minmax(315px, 1fr)); //used for listing individual tracks. 
   gap: 1rem 1rem;
 }
 .subTitle {
@@ -32,9 +33,14 @@
   }
 
   .audio {
-    width: 300px;
+    width: auto;
   }
   .audio-main-div {
     text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: auto;
+    padding: 1.5rem;
   }
 }

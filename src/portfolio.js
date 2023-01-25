@@ -54,7 +54,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "FULL STACK DEVELOPER WITH PASSION WHO WANTS TO DESIGN YOUR WEBSITE",
+    "WEB DESIGN AND SOFTWARE TOOLS",
   subTitleMusic:
     "FULL STACK DEVELOPER / MUSICIAN WHO SPECIALIZES IN WEB DESIGN",
   skills: [
@@ -311,7 +311,7 @@ const bigProjects = {
   subtitle: "STARTUPS, SMALL BUSINESSES, AND NON-PROFITS",
   projects: [
     {
-      image: require("./assets/images/cwlogo.webp"),
+      image: require("./assets/images/cwlogo.png"),
       projectName: "Cullowheegee Farms",
       projectDesc:
         " All Natural, Handmade Soaps, Lotions, Salves, Jewelry and Crafts from our farm in the heart of the Appalachian Mountains",
@@ -417,7 +417,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With a Love for Developing cool stuff, I enjoy finding useful articles that can teach others about what I have learned.",
+    "I enjoy finding useful articles that can teach others about developing cool stuff.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -483,22 +483,23 @@ const videoSection = {
 
 const audioSection = {
   title: emoji("Audio"),
-  subtitle: "SOME OF MY SAX WORK CAN BE FOUND HERE",
+  subtitle: "SOME OF MY MUSIC CAN BE FOUND HERE",
 
   // Please Provide with Your Spotify embeded Link
   audio: [
-    "https://open.spotify.com/embed/track/3wD3SwqMAyrd9no1KhEXKn?utm_source=generator&theme=0",
-    "https://open.spotify.com/embed/track/04GPbiEoU75QfLTjj3EBZa?utm_source=generator",
-    "https://open.spotify.com/embed/track/5lG6SU0Jt4J50eF5Q48S1f?utm_source=generator",
-    "https://open.spotify.com/embed/track/6aR8T8ZJJ2P6qg7Cx9zspU?utm_source=generator",
-    "https://open.spotify.com/embed/track/6DzHRiMEzc8WpYTEVHjPcl?utm_source=generator",
-    "https://open.spotify.com/embed/track/2rmzeIU64k9YnTkBBfzfAe?utm_source=generator",
-    "https://open.spotify.com/embed/track/69TAsYeIAUCWC4TZHHDiPr?utm_source=generator",
-    "https://open.spotify.com/embed/track/5sHkx2mL4YcaRpMzj4ZCFi?utm_source=generator",
-    //"https://open.spotify.com/embed/track/0RAbEA1Oy5yfrSEoPZu8mX?utm_source=generator&theme=0",
-    "https://open.spotify.com/embed/track/46zmfi8fZwmri9UQdkJzt3?utm_source=generator",
-    "https://open.spotify.com/embed/track/1qJ0JpbJ9IrUQ05OTWM6oJ?utm_source=generator",
-    "https://open.spotify.com/embed/track/5zCcW1AZ3DNzV6PiyUYNX3?utm_source=generator"
+    "https://open.spotify.com/embed/playlist/6XK349Hvh2DuAkMqb6XyML?utm_source=generator&theme=0"
+    // "https://open.spotify.com/embed/track/3wD3SwqMAyrd9no1KhEXKn?utm_source=generator&theme=0",
+    // "https://open.spotify.com/embed/track/04GPbiEoU75QfLTjj3EBZa?utm_source=generator",
+    // "https://open.spotify.com/embed/track/5lG6SU0Jt4J50eF5Q48S1f?utm_source=generator",
+    // "https://open.spotify.com/embed/track/6aR8T8ZJJ2P6qg7Cx9zspU?utm_source=generator",
+    // "https://open.spotify.com/embed/track/6DzHRiMEzc8WpYTEVHjPcl?utm_source=generator",
+    // "https://open.spotify.com/embed/track/2rmzeIU64k9YnTkBBfzfAe?utm_source=generator",
+    // "https://open.spotify.com/embed/track/69TAsYeIAUCWC4TZHHDiPr?utm_source=generator",
+    // "https://open.spotify.com/embed/track/5sHkx2mL4YcaRpMzj4ZCFi?utm_source=generator",
+    // //"https://open.spotify.com/embed/track/0RAbEA1Oy5yfrSEoPZu8mX?utm_source=generator&theme=0",
+    // "https://open.spotify.com/embed/track/46zmfi8fZwmri9UQdkJzt3?utm_source=generator",
+    // "https://open.spotify.com/embed/track/1qJ0JpbJ9IrUQ05OTWM6oJ?utm_source=generator",
+    // "https://open.spotify.com/embed/track/5zCcW1AZ3DNzV6PiyUYNX3?utm_source=generator"
   ],
 
   display: true // Set false to hide this section, defaults to true
