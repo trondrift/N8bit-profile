@@ -64,7 +64,7 @@ const skillsSection = {
     emoji(
       "⚡ Web design for businesses, non-profits, recording studios, and high profile musicians"
     ),
-    emoji("⚡ Integration of branding and ecommerce strategies for startups"),
+    emoji("⚡ Integration of branding and ecommerce strategies for startups")
   ],
   skillsMusic: [
     emoji(
