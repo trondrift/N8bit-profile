@@ -65,7 +65,6 @@ const skillsSection = {
       "⚡ Web design for businesses, non-profits, recording studios, and high profile musicians"
     ),
     emoji("⚡ Integration of branding and ecommerce strategies for startups"),
-    emoji("🎷 Help other musicians improve their tech stack")
   ],
   skillsMusic: [
     emoji(
@@ -73,7 +72,7 @@ const skillsSection = {
     ),
     emoji("⚡ Web design for recording studios, and independent artists"),
     emoji("⚡ Integration of branding and ecommerce strategies for new bands"),
-    emoji("🎷 Help other musicians improve their tech stack")
+    emoji("⚡ Tech stack improvement")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
