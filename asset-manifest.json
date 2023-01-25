@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/N8bit-profile/static/css/main.ed88ed56.css",
-    "main.js": "/N8bit-profile/static/js/main.b21d5ad0.js",
+    "main.css": "/N8bit-profile/static/css/main.d19c317e.css",
+    "main.js": "/N8bit-profile/static/js/main.5f862f80.js",
     "static/css/64.917cfe77.chunk.css": "/N8bit-profile/static/css/64.917cfe77.chunk.css",
     "static/js/64.a2201178.chunk.js": "/N8bit-profile/static/js/64.a2201178.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/N8bit-profile/static/css/769.70f3b610.chunk.css",
@@ -13,6 +13,7 @@
     "static/media/profile-picsax.png": "/N8bit-profile/static/media/profile-picsax.31a23044092c554eb557.png",
     "static/media/profile-pic5.png": "/N8bit-profile/static/media/profile-pic5.023897c7709cf3db3463.png",
     "static/media/HULogo.png": "/N8bit-profile/static/media/HULogo.845ae9202bf506156275.png",
+    "static/media/cwlogo.png": "/N8bit-profile/static/media/cwlogo.d150e9232f339d6986b4.png",
     "static/media/Montserrat-Regular.ttf": "/N8bit-profile/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/interlochen.png": "/N8bit-profile/static/media/interlochen.bda0394c754b79060222.png",
     "static/media/gentexblack.png": "/N8bit-profile/static/media/gentexblack.3a5b5053e3107b575f7a.png",
@@ -23,21 +24,20 @@
     "static/media/googleAssistantLogo.webp": "/N8bit-profile/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/hanstechLLC2.png": "/N8bit-profile/static/media/hanstechLLC2.952cef80c95e4ac5dbe3.png",
     "static/media/hansenchartssq.png": "/N8bit-profile/static/media/hansenchartssq.c44ac1f3d4113294939d.png",
-    "static/media/cwlogo.webp": "/N8bit-profile/static/media/cwlogo.023a67cf884e17b828e8.webp",
     "static/media/codeInLogo.webp": "/N8bit-profile/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/N8bit-profile/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/pwaLogo.webp": "/N8bit-profile/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/N8bit-profile/index.html",
     "static/media/talksCardBack.svg": "/N8bit-profile/static/media/talksCardBack.bd16a4840fba66363551.svg",
-    "main.ed88ed56.css.map": "/N8bit-profile/static/css/main.ed88ed56.css.map",
-    "main.b21d5ad0.js.map": "/N8bit-profile/static/js/main.b21d5ad0.js.map",
+    "main.d19c317e.css.map": "/N8bit-profile/static/css/main.d19c317e.css.map",
+    "main.5f862f80.js.map": "/N8bit-profile/static/js/main.5f862f80.js.map",
     "64.917cfe77.chunk.css.map": "/N8bit-profile/static/css/64.917cfe77.chunk.css.map",
     "64.a2201178.chunk.js.map": "/N8bit-profile/static/js/64.a2201178.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/N8bit-profile/static/css/769.70f3b610.chunk.css.map",
     "769.c81bc43e.chunk.js.map": "/N8bit-profile/static/js/769.c81bc43e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed88ed56.css",
-    "static/js/main.b21d5ad0.js"
+    "static/css/main.d19c317e.css",
+    "static/js/main.5f862f80.js"
   ]
 }
