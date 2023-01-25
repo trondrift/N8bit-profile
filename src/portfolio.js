@@ -53,8 +53,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle:
-    "WEB DESIGN AND SOFTWARE TOOLS",
+  subTitle: "WEB DESIGN AND SOFTWARE TOOLS",
   subTitleMusic:
     "FULL STACK DEVELOPER / MUSICIAN WHO SPECIALIZES IN WEB DESIGN",
   skills: [
