@@ -323,10 +323,23 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/HULogo.png"),
+      image: require("./assets/images/augieboneslogo1.png"),
+      projectName: "Augie Bones",
+      projectDesc:
+        " Sustainable, Plant-Based Pet Toys. Made with love, for the health of our pets and planet",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://augiebones.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/HUChristmas.png"),
       projectName: "Hark Up Music",
       projectDesc:
-        "Michigan faith based talent organization that provides a diverse collection of musical programming well suited for both private and community centered events year round",
+        "Michigan faith based talent organization that provides a diverse collection of musical programming for both private and community centered events",
       footerLink: [
         {
           name: "Visit Website",
