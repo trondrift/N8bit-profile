@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/N8bit-profile/static/css/main.d19c317e.css",
-    "main.js": "/N8bit-profile/static/js/main.5f862f80.js",
+    "main.css": "/N8bit-profile/static/css/main.80d6f73a.css",
+    "main.js": "/N8bit-profile/static/js/main.ee3cecaa.js",
     "static/css/64.917cfe77.chunk.css": "/N8bit-profile/static/css/64.917cfe77.chunk.css",
-    "static/js/64.a2201178.chunk.js": "/N8bit-profile/static/js/64.a2201178.chunk.js",
+    "static/js/64.de24b5b0.chunk.js": "/N8bit-profile/static/js/64.de24b5b0.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/N8bit-profile/static/css/769.70f3b610.chunk.css",
     "static/js/769.c81bc43e.chunk.js": "/N8bit-profile/static/js/769.c81bc43e.chunk.js",
     "static/media/DCDetourProfile.png": "/N8bit-profile/static/media/DCDetourProfile.2776d76c50a40005ff46.png",
     "static/media/gv2full.png": "/N8bit-profile/static/media/gv2full.9aa4aa1f1173e7176d11.png",
     "static/media/WHcombo.png": "/N8bit-profile/static/media/WHcombo.47207cc2991d7a3a1983.png",
+    "static/media/augieboneslogo1.png": "/N8bit-profile/static/media/augieboneslogo1.ed61605e67e872d75a70.png",
     "static/media/melo.png": "/N8bit-profile/static/media/melo.a8d69fa6637a09f38d80.png",
+    "static/media/HUChristmas.png": "/N8bit-profile/static/media/HUChristmas.9d78810e614f85b76b71.png",
     "static/media/profile-picsax.png": "/N8bit-profile/static/media/profile-picsax.31a23044092c554eb557.png",
     "static/media/profile-pic5.png": "/N8bit-profile/static/media/profile-pic5.023897c7709cf3db3463.png",
-    "static/media/HULogo.png": "/N8bit-profile/static/media/HULogo.845ae9202bf506156275.png",
     "static/media/cwlogo.png": "/N8bit-profile/static/media/cwlogo.d150e9232f339d6986b4.png",
     "static/media/Montserrat-Regular.ttf": "/N8bit-profile/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/interlochen.png": "/N8bit-profile/static/media/interlochen.bda0394c754b79060222.png",
@@ -29,15 +30,15 @@
     "static/media/pwaLogo.webp": "/N8bit-profile/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/N8bit-profile/index.html",
     "static/media/talksCardBack.svg": "/N8bit-profile/static/media/talksCardBack.bd16a4840fba66363551.svg",
-    "main.d19c317e.css.map": "/N8bit-profile/static/css/main.d19c317e.css.map",
-    "main.5f862f80.js.map": "/N8bit-profile/static/js/main.5f862f80.js.map",
+    "main.80d6f73a.css.map": "/N8bit-profile/static/css/main.80d6f73a.css.map",
+    "main.ee3cecaa.js.map": "/N8bit-profile/static/js/main.ee3cecaa.js.map",
     "64.917cfe77.chunk.css.map": "/N8bit-profile/static/css/64.917cfe77.chunk.css.map",
-    "64.a2201178.chunk.js.map": "/N8bit-profile/static/js/64.a2201178.chunk.js.map",
+    "64.de24b5b0.chunk.js.map": "/N8bit-profile/static/js/64.de24b5b0.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/N8bit-profile/static/css/769.70f3b610.chunk.css.map",
     "769.c81bc43e.chunk.js.map": "/N8bit-profile/static/js/769.c81bc43e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d19c317e.css",
-    "static/js/main.5f862f80.js"
+    "static/css/main.80d6f73a.css",
+    "static/js/main.ee3cecaa.js"
   ]
 }
