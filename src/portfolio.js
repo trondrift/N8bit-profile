@@ -351,12 +351,25 @@ const bigProjects = {
       image: require("./assets/images/hansenchartssq.png"),
       projectName: "HansenCharts LLC",
       projectDesc:
-        "Hansencharts creates unique musical ensemble arrangements for special events using the music of Justin Bieber, Coldplay, Sleeping At Last…",
+        "Hansencharts creates unique musical ensemble arrangements for special events",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://hansenchartsmusic.com/"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/TB.webp"),
+      projectName: "Titan Bioplastics",
+      projectDesc:
+        " A Material Engineering company focused on nano technology, composites, and sustainable material solutions for manufacturing",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.titanbioplastics.com/"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
