@@ -358,20 +358,20 @@ const bigProjects = {
           url: "https://hansenchartsmusic.com/"
         }
       ]
-    },
-    {
-      image: require("./assets/images/TB.webp"),
-      projectName: "Titan Bioplastics",
-      projectDesc:
-        " A Material Engineering company focused on nano technology, composites, and sustainable material solutions for manufacturing",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.titanbioplastics.com/"
-        }
-        //  you can add extra buttons here.
-      ]
     }
+    // {
+    //   image: require("./assets/images/TB.webp"),
+    //   projectName: "Titan Bioplastics",
+    //   projectDesc:
+    //     " A Material Engineering company focused on nano technology, composites, and sustainable material solutions for manufacturing",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://www.titanbioplastics.com/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
