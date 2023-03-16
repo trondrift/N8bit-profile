@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/N8bit-profile/static/css/main.80d6f73a.css",
-    "main.js": "/N8bit-profile/static/js/main.6b2d7373.js",
+    "main.js": "/N8bit-profile/static/js/main.178f21d4.js",
     "static/css/64.917cfe77.chunk.css": "/N8bit-profile/static/css/64.917cfe77.chunk.css",
     "static/js/64.de24b5b0.chunk.js": "/N8bit-profile/static/js/64.de24b5b0.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/N8bit-profile/static/css/769.70f3b610.chunk.css",
@@ -20,7 +20,6 @@
     "static/media/gentexblack.png": "/N8bit-profile/static/media/gentexblack.3a5b5053e3107b575f7a.png",
     "static/media/Agustina.woff": "/N8bit-profile/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/SSLogo.png": "/N8bit-profile/static/media/SSLogo.a870da5d39749fc3cb15.png",
-    "static/media/TB.webp": "/N8bit-profile/static/media/TB.12329809a1510938927f.webp",
     "static/media/contactMailDark.svg": "/N8bit-profile/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/N8bit-profile/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/N8bit-profile/static/media/googleAssistantLogo.f720c71652579588524a.webp",
@@ -32,7 +31,7 @@
     "index.html": "/N8bit-profile/index.html",
     "static/media/talksCardBack.svg": "/N8bit-profile/static/media/talksCardBack.bd16a4840fba66363551.svg",
     "main.80d6f73a.css.map": "/N8bit-profile/static/css/main.80d6f73a.css.map",
-    "main.6b2d7373.js.map": "/N8bit-profile/static/js/main.6b2d7373.js.map",
+    "main.178f21d4.js.map": "/N8bit-profile/static/js/main.178f21d4.js.map",
     "64.917cfe77.chunk.css.map": "/N8bit-profile/static/css/64.917cfe77.chunk.css.map",
     "64.de24b5b0.chunk.js.map": "/N8bit-profile/static/js/64.de24b5b0.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/N8bit-profile/static/css/769.70f3b610.chunk.css.map",
@@ -40,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.80d6f73a.css",
-    "static/js/main.6b2d7373.js"
+    "static/js/main.178f21d4.js"
   ]
 }
