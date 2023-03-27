@@ -36,7 +36,7 @@ export default function Twitch() {
             return (
               <div key={i}>
                 <iframe
-                  src="https://player.twitch.tv/?channel=sir_ej_tv&parent=hanstech.io&parent=www.hanstech.io&parent=nate-hansen.com&parent=www.nate-hansen.com"
+                  src="https://player.twitch.tv/?channel=danish_live&parent=hanstech.io&parent=www.hanstech.io&parent=nate-hansen.com&parent=www.nate-hansen.com&parent=trondrift.github.io"
                   className="twitch"
                   title="twitchstream"
                   frameborder="0"
