@@ -530,6 +530,16 @@ const audioSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const twitchSection = {
+  title: emoji("Twitch 🎮"),
+  subtitle: "",
+
+  // Please Provide with Your Spotify embeded Link
+  channel: ["danish_live"],
+
+  display: true // Set false to hide this section, defaults to true
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -565,6 +575,7 @@ export {
   podcastSection,
   videoSection,
   audioSection,
+  twitchSection,
   contactInfo,
   twitterDetails,
   isHireable

@@ -17,6 +17,7 @@ import Audio from "./audio/Audio";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
+import Twitch from "./twitch/Twitch";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
@@ -84,6 +85,7 @@ const Main = () => {
             <Video />
             <Audio />
             <Twitter />
+            <Twitch />
             <Profile />
             <Footer />
             <ScrollToTopButton />

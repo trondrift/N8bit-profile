@@ -1,0 +1,40 @@
+@import "../../_globalColor";
+
+.twitch-header-title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 0px;
+}
+
+.twitch {
+  width: 600px;
+  height: 315px;
+}
+
+.twitch-main-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
+.subTitle {
+  color: $subTitle;
+}
+
+@media (max-width: 768px) {
+  .twitch-header-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .twitch-header-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .twitch {
+    width: 300px;
+  }
+  .twitch-main-div {
+    text-align: center;
+  }
+}
