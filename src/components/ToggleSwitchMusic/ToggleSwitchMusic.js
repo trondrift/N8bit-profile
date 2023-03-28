@@ -1,4 +1,5 @@
 import React, {useState, useContext} from "react";
+import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 import "./ToggleSwitchMusic.scss";
 
@@ -9,9 +10,6 @@ const ToggleSwitchMusic = () => {
 
   return (
     <div style={{display: "flex"}}>
-      <span role="img" aria-hidden="true" style={{paddingRight: "15px"}}>
-        🧑‍💼
-      </span>
       <label className="switch">
         <input
           type="checkbox"
@@ -21,11 +19,10 @@ const ToggleSwitchMusic = () => {
             setChecked(!isChecked);
           }}
         />
-        <span className="slider round"></span>
+        <span className="slider round">
+          <span className="emoji">{isChecked ? emoji("🎷") : emoji("👨‍💻")}</span>
+        </span>
       </label>
-      <span role="img" aria-hidden="true" style={{paddingLeft: "15px"}}>
-        🎷
-      </span>
     </div>
   );
 };
