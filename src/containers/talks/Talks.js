@@ -4,7 +4,6 @@ import TalkCard from "../../components/talkCard/TalkCard";
 import {talkSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-
 export default function Talks() {
   const {isDark} = useContext(StyleContext);
   if (!talkSection.display) {
@@ -24,21 +23,23 @@ export default function Talks() {
           >
             {talkSection.subtitle}
           </p>
-          {talkSection.talks.map((talk, i) => {
-            return (
-              <TalkCard
-                key={i}
-                talkDetails={{
-                  title: talk.title,
-                  subtitle: talk.subtitle,
-                  slides_url: talk.join_url,
-                  event_url: talk.register_url,
-                  image: talk.image,
-                  isDark
-                }}
-              />
-            );
-          })}
+          <div className="talk-cards-div">
+            {talkSection.talks.map((talk, i) => {
+              return (
+                <TalkCard
+                  key={i}
+                  talkDetails={{
+                    title: talk.title,
+                    subtitle: talk.subtitle,
+                    slides_url: talk.join_url,
+                    event_url: talk.register_url,
+                    image: talk.image,
+                    isDark
+                  }}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </Fade>

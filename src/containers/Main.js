@@ -11,6 +11,7 @@ import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
+import Discord from "./discord/Discord";
 import Podcast from "./podcast/Podcast";
 import Video from "./video/Video";
 import Audio from "./audio/Audio";
@@ -84,7 +85,8 @@ const Main = () => {
             <Podcast />
             <Video />
             <Audio />
-            <Twitter />
+            {/* <Twitter /> */}
+            <Discord />
             <Twitch />
             <Profile />
             <Footer />

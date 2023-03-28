@@ -3,6 +3,7 @@ import "./Twitch.scss";
 import {twitchSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import Button from "../../components/button/Button";
 
 export default function Twitch() {
   const {isDark} = useContext(StyleContext);
@@ -25,7 +26,12 @@ export default function Twitch() {
                 : "subTitle twitch-header-subtitle"
             }
           >
-            {twitchSection.subtitle}
+            <Button
+              text={twitchSection.subtitle}
+              href={"https://www.twitch.tv/" + `${twitchSection.channel.at(0)}`}
+              newTab={true}
+            />
+            {/* {twitchSection.subtitle} */}
           </p>
         </div>
         <div className="twitch-main-div">

@@ -150,7 +150,7 @@ const educationInfo = {
     {
       schoolName: "Grand Valley State University",
       logo: require("./assets/images/gv2full.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "B.S. Computer Science",
       duration: "September 2009 - April 2012",
       descBullets: [
         "Selected to participated in national programming competitions to represent the school in 2011 and 2012"
@@ -463,18 +463,32 @@ const blogSection = {
 
 // Talks Sections
 
-const discordSection = {
-  title: "Discord",
-  subtitle: emoji("HIVE MIND SERVER ADMIN"),
+const talkSection = {
+  title: "Talks",
+  subtitle: emoji("A Card With Links"),
 
   talks: [
     {
-      title: "Nullptr",
+      title: "Twitch",
       subtitle: "Share, Build, Play, Learn",
       join_url: "https://discord.com",
       register_url: "mailto:nhansen.dev@gmail.com"
     }
   ],
+  display: false // Set false to hide this section, defaults to true
+};
+
+const discordSection = {
+  title: "Discord",
+  subtitle: emoji("HIVE MIND SERVER ADMIN"),
+
+  info: {
+    title: "Nullptr",
+    subtitle: "Share, Build, Play, Learn",
+    join_url: "https://discord.com",
+    register_url: "mailto:nhansen.dev@gmail.com",
+    src: "https://discord.com/widget?id=361602048975831040&theme=dark"
+  },
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -482,7 +496,7 @@ const discordSection = {
 
 const podcastSection = {
   title: emoji("Podcasts & Tunage 🎙️"),
-  subtitle: "I LOVE TO PERFORM AND TALK ABOUT MUSIC",
+  subtitle: "", //"I LOVE TO PERFORM AND TALK ABOUT MUSIC",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -531,10 +545,10 @@ const audioSection = {
 };
 
 const twitchSection = {
-  title: emoji("Twitch 🎮"),
-  subtitle: "",
+  title: emoji("Games 🎮"),
+  subtitle: "twitch.tv/danish_live",
 
-  // Please Provide with Your Spotify embeded Link
+  // Please Provide with Your Twitch channel
   channel: ["danish_live"],
 
   display: true // Set false to hide this section, defaults to true
@@ -571,7 +585,8 @@ export {
   artistProjects,
   achievementSection,
   blogSection,
-  discordSection as talkSection,
+  discordSection,
+  talkSection,
   podcastSection,
   videoSection,
   audioSection,
