@@ -23,7 +23,11 @@ export default function Twitch() {
             <Button
               // className={"project-button"}
               text={twitchSection.subtitle}
-              href={"https://www.twitch.tv/" + `${twitchSection.channel.at(0)}`}
+              href={
+                "https://www.twitch.tv/" +
+                `${twitchSection.channel.at(0)}` +
+                "/about"
+              }
               newTab={true}
             />
           </h1>
