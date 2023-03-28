@@ -18,7 +18,15 @@ export default function Twitch() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="twitch">
         <div className="twitch-header">
-          <h1 className="twitch-header-title">{twitchSection.title}</h1>
+          <h1 className="twitch-header-title">
+            {twitchSection.title}
+            <Button
+              // className={"project-button"}
+              text={twitchSection.subtitle}
+              href={"https://www.twitch.tv/" + `${twitchSection.channel.at(0)}`}
+              newTab={true}
+            />
+          </h1>
           <p
             className={
               isDark
@@ -26,11 +34,6 @@ export default function Twitch() {
                 : "subTitle twitch-header-subtitle"
             }
           >
-            <Button
-              text={twitchSection.subtitle}
-              href={"https://www.twitch.tv/" + `${twitchSection.channel.at(0)}`}
-              newTab={true}
-            />
             {/* {twitchSection.subtitle} */}
           </p>
         </div>
