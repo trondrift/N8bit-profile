@@ -20,6 +20,7 @@ export default function WorkExperience() {
                     <ExperienceCard
                       key={i}
                       isDark={isDark}
+                      overrideLogo={card.overridelogo}
                       cardInfo={{
                         company: card.company,
                         desc: card.desc,

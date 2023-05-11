@@ -7,16 +7,18 @@
 }
 
 .splash-animation-container {
-  height: 50vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -350px;
 }
 
 .splash-title-container {
   font-size: 2rem;
   text-decoration: none;
+  margin-top: -250px;
 }
 .splash-title {
   font-family: "Agustina Regular", cursive;

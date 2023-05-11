@@ -3,14 +3,15 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/loadingatom.json"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/loadingatom.json";
+import hanstechLogoAnimation from "./assets/lottie/HansTechAnimatedSplash.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
-  duration: 5000 // Set animation duration as per your animation
+  animation: hanstechLogoAnimation,
+  duration: 4000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -23,7 +24,7 @@ const greeting = {
   username: "Nathan Hansen",
   title: "Hi, I'm Nate",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with experience building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   subTitleMusic: emoji(
     "A passionate Sax player 🎵 with experience building Web and Mobile sites using JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
@@ -58,7 +59,7 @@ const skillsSection = {
     "FULL STACK DEVELOPER / MUSICIAN WHO SPECIALIZES IN WEB DESIGN",
   skills: [
     emoji(
-      "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications"
+      "⚡ Development for highly interactive Front end / User Interfaces for web applications and websites"
     ),
     emoji(
       "⚡ Web design for businesses, non-profits, recording studios, and high profile musicians"
@@ -214,7 +215,7 @@ const workExperiences = {
     {
       role: "Owner",
       company: "Hanstech LLC",
-      companylogo: require("./assets/images/hanstechLLC2.png"),
+      companylogo: require("./assets/images/Hanstech-final-logo-03.png"),
       date: "May 2020 – Present",
       desc: "Managing software solutions for businesses, non-profits, recording studios, and high profile musicians",
       descBullets: ["Web Design", "Ecommerce", "Web Frameworks", "Custom Tools"]
@@ -250,7 +251,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const artistProjects = {
-  title: "Web Design",
+  title: "Web Design Services",
   subtitle: "FOR ARTISTS, MUSICIANS, AND CREATIVES",
   projects: [
     {
@@ -558,7 +559,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1-6164855160",
+  //number: "+1-6164855160",
   email_address: "nhansen.dev@gmail.com"
 };
 
