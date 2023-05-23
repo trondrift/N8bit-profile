@@ -79,7 +79,7 @@ const Main = () => {
             <Education />
             <ArtistProfileProject />
             <StartupProject />
-            <NonProfitProject />
+            {/* <NonProfitProject /> */}
             <Projects />
             <Achievement />
             <Blogs />
