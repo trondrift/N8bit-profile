@@ -18,12 +18,12 @@
 .splash-title-container {
   font-size: 2rem;
   text-decoration: none;
-  margin-top: -200px;
+  margin-top: -100px;
 }
 .splash-title {
   font-family: "Agustina Regular", cursive;
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 20px;
+  padding: 0 10px;
 }

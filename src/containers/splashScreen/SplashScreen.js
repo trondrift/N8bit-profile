@@ -17,10 +17,11 @@ export default function SplashScreen() {
         <span className="splash-title">{greeting.username}</span>
         <span className="grey-color">/&gt;</span>
       </div>
-      {/* <div style={{paddingTop: "20px"}}>Choose Your Experience</div>
-      <div style={{paddingTop: "20px"}}>
-        <ToggleSwitchMusic />
-      </div> */}
     </div>
   );
 }
+
+/* <div style={{paddingTop: "20px"}}>Choose Your Experience</div>
+      <div style={{paddingTop: "20px"}}>
+        <ToggleSwitchMusic />
+      </div> */

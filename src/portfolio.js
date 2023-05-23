@@ -251,7 +251,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const artistProjects = {
-  title: "Web Design Services",
+  title: "Web Design",
   subtitle: "FOR ARTISTS, MUSICIANS, AND CREATIVES",
   projects: [
     {
@@ -349,6 +349,55 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/MooseNewLogoCrop.webp"),
+      projectName: "Moose's March",
+      projectDesc:
+        "Moose's March funds public awareness and supports pets & their people impacted by pet cancer that strikes over 6 million cats and 6 million dogs each year",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.moosesmarch.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/AAPPCrop.webp"),
+      projectName: "AAPP",
+      projectDesc:
+        "We bring lifesaving programs to underserved communities & families to keep pets healthy and out of our sheltering system",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://aapp-pets.org/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/SavingLifeCrop.webp"),
+      projectName: "Saving-Life",
+      projectDesc:
+        "Our innovative pet identification products and technology connect to vast ecosystem of partners and pet parents to save animal lives",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.saving-life.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/TitanCrop.webp"),
+      projectName: "Titan Bioplastics",
+      projectDesc:
+        "A Material Engineering company focused on nano technology, composites, and sustainable material solutions for manufacturing",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.titanbioplastics.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/hansenchartssq.png"),
       projectName: "HansenCharts LLC",
       projectDesc:
@@ -360,21 +409,65 @@ const bigProjects = {
         }
       ]
     }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+//Hide for now. Eventually we can separate.
+const nonProfits = {
+  title: "",
+  subtitle: "",
+  projects: [
     // {
-    //   image: require("./assets/images/TB.webp"),
-    //   projectName: "Titan Bioplastics",
+    //   image: require("./assets/images/HUChristmas.png"),
+    //   projectName: "Hark Up Music",
     //   projectDesc:
-    //     " A Material Engineering company focused on nano technology, composites, and sustainable material solutions for manufacturing",
+    //     "Michigan faith based talent organization that provides a diverse collection of musical programming for both private and community centered events",
     //   footerLink: [
     //     {
     //       name: "Visit Website",
-    //       url: "https://www.titanbioplastics.com/"
+    //       url: "https://harkup.com/"
     //     }
-    //     //  you can add extra buttons here.
     //   ]
-    // }
+    // },
+    // {
+    //   image: require("./assets/images/AAPP-Horizontal-Logo.webp"),
+    //   projectName: "AAPP",
+    //   projectDesc:
+    //     "We bring lifesaving programs to underserved communities & families to keep pets healthy and out of our sheltering system.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://aapp-pets.org/"
+    //     }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/AAPP-Horizontal-Logo.webp"),
+    //   projectName: "Moose's March",
+    //   projectDesc:
+    //     "Moose's March funds public awareness and supports pets & their people impacted by pet cancer that strikes over 6 million cats and 6 million dogs each year.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://www.moosesmarch.com/"
+    //     }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/savingLife_logo_white.webp"),
+    //   projectName: "Saving-Life",
+    //   projectDesc:
+    //     "Our innovative pet identification products and technology connect to vast ecosystem of partners and pet parents to save animal lives",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://www.saving-life.com/"
+    //     }
+    //   ]
+    // },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -584,6 +677,7 @@ export {
   openSource,
   bigProjects,
   artistProjects,
+  nonProfits,
   achievementSection,
   blogSection,
   discordSection,

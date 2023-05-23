@@ -7,6 +7,7 @@ import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import ArtistProfileProject from "./StartupProjects/ArtistProfileProject";
+import NonProfitProject from "./StartupProjects/NonProfitProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
@@ -78,6 +79,7 @@ const Main = () => {
             <Education />
             <ArtistProfileProject />
             <StartupProject />
+            <NonProfitProject />
             <Projects />
             <Achievement />
             <Blogs />
