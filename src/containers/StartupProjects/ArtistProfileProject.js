@@ -14,6 +14,8 @@ export default function ArtistProfileProject() {
   }
 
   const {isDark} = useContext(StyleContext);
+  const {isMusicianMode} = useContext(StyleContext);
+
   if (!artistProjects.display) {
     return null;
   }
@@ -34,6 +36,13 @@ export default function ArtistProfileProject() {
 
           <div className="projects-container">
             {artistProjects.projects.map((project, i) => {
+              if (!isMusicianMode) {
+                //This means only show 4 artist projects unless in musician mode
+                if (i < 4) {
+                } else {
+                  return "";
+                }
+              }
               return (
                 <div
                   key={i}

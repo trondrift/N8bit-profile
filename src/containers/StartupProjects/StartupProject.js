@@ -13,6 +13,8 @@ export default function StartupProject() {
     win.focus();
   }
 
+  const {isMusicianMode} = useContext(StyleContext);
+
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
@@ -34,6 +36,13 @@ export default function StartupProject() {
 
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
+              if (isMusicianMode) {
+                //This means only show last 2 projects for hark up
+                if (i > 1) {
+                } else {
+                  return "";
+                }
+              }
               return (
                 <div
                   key={i}

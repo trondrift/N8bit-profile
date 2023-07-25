@@ -25,9 +25,11 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import {useLocation} from "react-router-dom";
 import "./Main.scss";
 
 const Main = () => {
+  const musicPath = useLocation().pathname === "/music";
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", true);
   const [isMusicianMode, setIsMusicianMode] = useLocalStorage(
@@ -63,7 +65,7 @@ const Main = () => {
         value={{
           isDark: isDark,
           changeTheme: changeTheme,
-          isMusicianMode: isMusicianMode,
+          isMusicianMode: isMusicianMode || musicPath,
           changeProfession: changeProfession
         }}
       >
@@ -74,15 +76,15 @@ const Main = () => {
             <Header />
             <Greeting />
             <Skills />
-            <StackProgress />
+            {!musicPath ? <StackProgress /> : <div></div>}
             <WorkExperience />
             <Education />
             <ArtistProfileProject />
             <StartupProject />
             {/* <NonProfitProject /> */}
-            <Projects />
-            <Achievement />
-            <Blogs />
+            {!musicPath ? <Projects /> : <div></div>}
+            {!musicPath ? <Achievement /> : <div></div>}
+            {!musicPath ? <Blogs /> : <div></div>}
             <Talks />
             <Podcast />
             <Video />

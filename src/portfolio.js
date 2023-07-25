@@ -3,7 +3,6 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/loadingatom.json";
 import hanstechLogoAnimation from "./assets/lottie/HansTechAnimatedSplash.json"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -70,8 +69,8 @@ const skillsSection = {
     emoji(
       "⚡ Development for highly interactive Front end / User Interfaces for web and mobile applications for musicians"
     ),
-    emoji("⚡ Web design for recording studios, and independent artists"),
-    emoji("⚡ Integration of branding and ecommerce strategies for new bands"),
+    emoji("⚡ Web design for recording studios, artists, and special events"),
+    emoji("⚡ Integration of branding and ecommerce strategies for bands"),
     emoji("⚡ Tech stack improvement")
   ],
 
@@ -163,7 +162,7 @@ const educationInfo = {
       subHeader: "Saxophone Performance",
       duration: "April 2008",
       descBullets: [
-        "Studied for a summer under the instruction of John Nichol and world famous composer Frank Ticheli"
+        "Studied under the instruction of John Nichol and composer Frank Ticheli"
       ]
     }
   ]
@@ -184,11 +183,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "60%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Saxophone",
-      progressPercentage: "60%"
+      progressPercentage: "65%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -301,7 +300,42 @@ const artistProjects = {
           url: "https://melophobix.com/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/HRSmall6.png"),
+      projectName: "Hannah Rose Graves",
+      projectDesc: "Official website of Hannah Rose Graves, Music is Medicine!",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.hannahrosegraves.net/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/geoffprofile.png"),
+      projectName: "Geoff Hansen",
+      projectDesc:
+        "Official website of Geoffrey Hansen, session vocalist and music educator.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.geoffhansen.squarespace.com/"
+        }
+      ]
     }
+    // {
+    //   image: require("./assets/images/luckless.png"),
+    //   projectName: "Luckless Pedestrian",
+    //   projectDesc:
+    //     "Official website of Geoffrey Hansen, session vocalist and music educator.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://www.geoffhansen.squarespace.com/"
+    //     }
+    //   ]
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -409,7 +443,7 @@ const nonProfits = {
       image: require("./assets/images/TitanCrop.webp"),
       projectName: "Titan Bioplastics",
       projectDesc:
-        "A Material Engineering company focused on nano technology, composites, and sustainable material solutions for manufacturing",
+        "A sustainable material Engineering company focused on plant based materials for companies seeking solutions for manufacturing and beyond",
       footerLink: [
         {
           name: "Visit Website",

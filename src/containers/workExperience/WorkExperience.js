@@ -7,6 +7,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
+  const {isMusicianMode} = useContext(StyleContext);
   if (workExperiences.display) {
     return (
       <div id="experience">
@@ -16,21 +17,43 @@ export default function WorkExperience() {
               <h1 className="experience-heading">Professional Experience</h1>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
-                  return (
-                    <ExperienceCard
-                      key={i}
-                      isDark={isDark}
-                      overrideLogo={card.overridelogo}
-                      cardInfo={{
-                        company: card.company,
-                        desc: card.desc,
-                        date: card.date,
-                        companylogo: card.companylogo,
-                        role: card.role,
-                        descBullets: card.descBullets
-                      }}
-                    />
-                  );
+                  if (isMusicianMode) {
+                    if (i > 0) {
+                      return (
+                        <ExperienceCard
+                          key={i}
+                          isDark={isDark}
+                          overrideLogo={card.overridelogo}
+                          cardInfo={{
+                            company: card.company,
+                            desc: card.desc,
+                            date: card.date,
+                            companylogo: card.companylogo,
+                            role: card.role,
+                            descBullets: card.descBullets
+                          }}
+                        />
+                      );
+                    } else {
+                      return "";
+                    }
+                  } else {
+                    return (
+                      <ExperienceCard
+                        key={i}
+                        isDark={isDark}
+                        overrideLogo={card.overridelogo}
+                        cardInfo={{
+                          company: card.company,
+                          desc: card.desc,
+                          date: card.date,
+                          companylogo: card.companylogo,
+                          role: card.role,
+                          descBullets: card.descBullets
+                        }}
+                      />
+                    );
+                  }
                 })}
               </div>
             </div>
