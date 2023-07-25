@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.501fce3a.css",
-    "main.js": "./static/js/main.560c2844.js",
+    "main.js": "./static/js/main.72a95ccd.js",
     "static/css/64.917cfe77.chunk.css": "./static/css/64.917cfe77.chunk.css",
     "static/js/64.de24b5b0.chunk.js": "./static/js/64.de24b5b0.chunk.js",
     "static/css/769.70f3b610.chunk.css": "./static/css/769.70f3b610.chunk.css",
-    "static/js/769.40fbce9d.chunk.js": "./static/js/769.40fbce9d.chunk.js",
+    "static/js/769.4cdc2436.chunk.js": "./static/js/769.4cdc2436.chunk.js",
     "static/media/DCDetourProfile.png": "./static/media/DCDetourProfile.2776d76c50a40005ff46.png",
     "static/media/gv2full.png": "./static/media/gv2full.9aa4aa1f1173e7176d11.png",
     "static/media/WHcombo.png": "./static/media/WHcombo.47207cc2991d7a3a1983.png",
+    "static/media/geoffprofile.png": "./static/media/geoffprofile.2517bfaed8d8a2e12dbf.png",
+    "static/media/HRSmall6.png": "./static/media/HRSmall6.08d6684ebe819331fbfd.png",
     "static/media/augieboneslogo1.png": "./static/media/augieboneslogo1.ed61605e67e872d75a70.png",
     "static/media/melo.png": "./static/media/melo.a8d69fa6637a09f38d80.png",
     "static/media/HUChristmas.png": "./static/media/HUChristmas.9d78810e614f85b76b71.png",
@@ -35,14 +37,14 @@
     "index.html": "./index.html",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.bd16a4840fba66363551.svg",
     "main.501fce3a.css.map": "./static/css/main.501fce3a.css.map",
-    "main.560c2844.js.map": "./static/js/main.560c2844.js.map",
+    "main.72a95ccd.js.map": "./static/js/main.72a95ccd.js.map",
     "64.917cfe77.chunk.css.map": "./static/css/64.917cfe77.chunk.css.map",
     "64.de24b5b0.chunk.js.map": "./static/js/64.de24b5b0.chunk.js.map",
     "769.70f3b610.chunk.css.map": "./static/css/769.70f3b610.chunk.css.map",
-    "769.40fbce9d.chunk.js.map": "./static/js/769.40fbce9d.chunk.js.map"
+    "769.4cdc2436.chunk.js.map": "./static/js/769.4cdc2436.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.501fce3a.css",
-    "static/js/main.560c2844.js"
+    "static/js/main.72a95ccd.js"
   ]
 }
