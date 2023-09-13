@@ -53,7 +53,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "WEB DESIGN AND SOFTWARE TOOLS",
+  subTitle: "WEB DESIGN AND SOFTWARE SOLUTIONS",
   subTitleMusic:
     "FULL STACK DEVELOPER / MUSICIAN WHO SPECIALIZES IN WEB DESIGN",
   skills: [
@@ -216,7 +216,7 @@ const workExperiences = {
       company: "Hanstech LLC",
       companylogo: require("./assets/images/Hanstech-final-logo-03.png"),
       date: "May 2020 – Present",
-      desc: "Managing software solutions for businesses, non-profits, recording studios, and high profile musicians",
+      desc: "Software solutions and consulting for businesses, non-profits, recording studios, and high profile musicians",
       descBullets: ["Web Design", "Ecommerce", "Web Frameworks", "Custom Tools"]
     }
     // {
