@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.2480f3d4.css",
-    "main.js": "./static/js/main.1e0d0f7f.js",
+    "main.css": "./static/css/main.e7126188.css",
+    "main.js": "./static/js/main.33d9763d.js",
     "static/css/64.917cfe77.chunk.css": "./static/css/64.917cfe77.chunk.css",
     "static/js/64.de24b5b0.chunk.js": "./static/js/64.de24b5b0.chunk.js",
     "static/css/769.70f3b610.chunk.css": "./static/css/769.70f3b610.chunk.css",
@@ -35,15 +35,15 @@
     "static/media/pwaLogo.webp": "./static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "./index.html",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.bd16a4840fba66363551.svg",
-    "main.2480f3d4.css.map": "./static/css/main.2480f3d4.css.map",
-    "main.1e0d0f7f.js.map": "./static/js/main.1e0d0f7f.js.map",
+    "main.e7126188.css.map": "./static/css/main.e7126188.css.map",
+    "main.33d9763d.js.map": "./static/js/main.33d9763d.js.map",
     "64.917cfe77.chunk.css.map": "./static/css/64.917cfe77.chunk.css.map",
     "64.de24b5b0.chunk.js.map": "./static/js/64.de24b5b0.chunk.js.map",
     "769.70f3b610.chunk.css.map": "./static/css/769.70f3b610.chunk.css.map",
     "769.4cdc2436.chunk.js.map": "./static/js/769.4cdc2436.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2480f3d4.css",
-    "static/js/main.1e0d0f7f.js"
+    "static/css/main.e7126188.css",
+    "static/js/main.33d9763d.js"
   ]
 }
