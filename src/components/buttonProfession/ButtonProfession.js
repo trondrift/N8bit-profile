@@ -1,6 +1,7 @@
 import React, {useState, useContext} from "react";
 import "./ButtonProfession.scss";
 import StyleContext from "../../contexts/StyleContext";
+import emoji from "react-easy-emoji";
 
 export default function ButtonProfession({text, className, href}) {
   const {isMusicianMode} = useContext(StyleContext);
@@ -14,6 +15,9 @@ export default function ButtonProfession({text, className, href}) {
   return (
     <div className={className} onClick={onClick}>
       <a className="main-button" href={href}>
+        <span className="point-emoji">
+          {emoji("👉")}
+        </span>
         {text}
       </a>
     </div>

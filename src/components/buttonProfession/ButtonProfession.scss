@@ -32,6 +32,40 @@
 .project-button > .main-button {
   margin-right: 0 !important;
 }
+
+.point-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: point;
+  display: inline-block;
+  transform-origin: 80% 80%;
+  padding-right: 5px;
+}
+
+@keyframes point {
+  0% {
+    transform: translateX(0px);
+  }
+  10% {
+    transform: translateX(-10px);
+  }
+  20% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(5px);
+  }
+  40% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {
@@ -43,6 +77,9 @@
 @media (max-width: 320px) {
   .main-button {
     font-size: 0.75rem;
-    padding: 5px 8px;
+  }
+  .project-button {
+    font-size: 0.75rem;
+    justify-content: center;
   }
 }

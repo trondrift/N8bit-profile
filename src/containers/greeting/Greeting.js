@@ -52,9 +52,8 @@ export default function Greeting() {
                     href={isMusicianMode ? "#music" : greeting.resumeLink}
                   />
                 )}
-                <ButtonProfession text={isMusicianMode ? "Tech Profile" : "Musicians Click Here"} href={"#"} />
                 <Button text="Contact me" href="#contact" />
-              </div>
+                </div>
             </div>
           </div>
           <div className="greeting-image-div">
@@ -79,6 +78,9 @@ export default function Greeting() {
               ></img>
             )}
           </div>
+        </div>
+        <div>
+          <ButtonProfession className="project-button" text={isMusicianMode ? "Tech Profile Here" : "Musicians Click Here"} href={"#"} />
         </div>
       </div>
     </Fade>
