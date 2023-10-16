@@ -11,6 +11,7 @@ import Button from "../../components/button/Button";
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import ButtonProfession from "../../components/buttonProfession/ButtonProfession";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -44,7 +45,6 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <Button
                     text={isMusicianMode ? "My Music" : "See my resume"}
@@ -52,6 +52,8 @@ export default function Greeting() {
                     href={isMusicianMode ? "#music" : greeting.resumeLink}
                   />
                 )}
+                <ButtonProfession text={isMusicianMode ? "Tech Profile" : "Musicians Click Here"} href={"#"} />
+                <Button text="Contact me" href="#contact" />
               </div>
             </div>
           </div>

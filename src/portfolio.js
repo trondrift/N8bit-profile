@@ -182,13 +182,13 @@ const techStack = {
       progressPercentage: "75%"
     },
     {
+      Stack: "Saxophone",
+      progressPercentage: "75%"
+    },
+    {
       Stack: "Backend",
       progressPercentage: "65%"
     },
-    {
-      Stack: "Saxophone",
-      progressPercentage: "65%"
-    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -312,18 +312,18 @@ const artistProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/geoffprofile.png"),
-      projectName: "Geoff Hansen",
-      projectDesc:
-        "Official website of Geoffrey Hansen, session vocalist and music educator.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.geoffhansen.squarespace.com/"
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/geoffprofile.png"),
+    //   projectName: "Geoff Hansen",
+    //   projectDesc:
+    //     "Official website of Geoffrey Hansen, session vocalist and music educator.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://www.geoffhansen.squarespace.com/"
+    //     }
+    //   ]
+    // }
     // {
     //   image: require("./assets/images/luckless.png"),
     //   projectName: "Luckless Pedestrian",
