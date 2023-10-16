@@ -38,7 +38,7 @@
   animation-iteration-count: infinite;
   animation-name: point;
   display: inline-block;
-  transform-origin: 80% 80%;
+  transform-origin: 90% 90%;
   padding-right: 5px;
 }
 
@@ -81,5 +81,6 @@
   .project-button {
     font-size: 0.75rem;
     justify-content: center;
+    padding-top: 20px;
   }
 }
