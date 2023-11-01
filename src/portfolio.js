@@ -359,13 +359,13 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/augieboneslogo1.png"),
-      projectName: "Augie Bones",
+      projectName: "Pet Toys",
       projectDesc:
         " Sustainable, Plant-Based Pet Toys. Made with love, for the health of our pets and planet",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://augiebones.com/"
+          url: "https://nhansendev.wixsite.com/website/"
         }
         //  you can add extra buttons here.
       ]
