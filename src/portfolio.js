@@ -61,9 +61,9 @@ const skillsSection = {
       "⚡ Development for highly interactive Front end / User Interfaces for web applications and websites"
     ),
     emoji(
-      "⚡ Web design for businesses, non-profits, recording studios, and high profile musicians"
+      "⚡ Web design for business, non-profits, and musicians"
     ),
-    emoji("⚡ Integration of branding and ecommerce strategies for startups")
+    emoji("⚡ Integration of branding and ecommerce strategies")
   ],
   skillsMusic: [
     emoji(
@@ -216,7 +216,7 @@ const workExperiences = {
       company: "Hanstech LLC",
       companylogo: require("./assets/images/Hanstech-final-logo-03.png"),
       date: "May 2020 – Present",
-      desc: "Software solutions and consulting for businesses, non-profits, recording studios, and high profile musicians",
+      desc: "Software solutions and consulting for business, non-profits, recording studios, and high profile musicians",
       descBullets: ["Web Design", "Ecommerce", "Web Frameworks", "Custom Tools"]
     }
     // {
@@ -342,7 +342,7 @@ const artistProjects = {
 
 const bigProjects = {
   title: "",
-  subtitle: "STARTUPS, SMALL BUSINESSES, AND NON-PROFITS",
+  subtitle: "SOME STARTUPS, SMALL BUSINESSES, AND NON-PROFITS",
   projects: [
     {
       image: require("./assets/images/cwlogo.png"),
@@ -638,7 +638,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  //number: "+1-6164855160",
+  number: "+1-6162098014",
   email_address: "nhansen.dev@gmail.com"
 };
 
