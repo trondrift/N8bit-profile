@@ -340,7 +340,7 @@ const artistProjects = {
 
 const bigProjects = {
   title: "",
-  subtitle: "SOME STARTUPS, SMALL BUSINESSES, AND NON-PROFITS",
+  subtitle: "MORE PROJECTS",
   projects: [
     {
       image: require("./assets/images/cwlogo.png"),
@@ -391,6 +391,19 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://harkup.com/"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/LucklesSLIPWhite.png"),
+      projectName: "Luckless Pedestrian",
+      projectDesc:
+        " A Steely Dan Experience. An event in honor of Charlie Royce.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.luckless-pedestrian.com/"
+        }
+        //  you can add extra buttons here.
       ]
     },
     {
