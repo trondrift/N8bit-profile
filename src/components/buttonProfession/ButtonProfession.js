@@ -7,17 +7,15 @@ export default function ButtonProfession({text, className, href}) {
   const {isMusicianMode} = useContext(StyleContext);
   const [isChecked, setChecked] = useState(isMusicianMode);
   const styleContext = useContext(StyleContext);
-  const onClick = function() {
+  const onClick = function () {
     styleContext.changeProfession();
     setChecked(!isChecked);
-  }
+  };
 
   return (
     <div className={className} onClick={onClick}>
       <a className="main-button" href={href}>
-        <span className="point-emoji">
-          {emoji("👉")}
-        </span>
+        <span className="point-emoji">{emoji("👉")}</span>
         {text}
       </a>
     </div>

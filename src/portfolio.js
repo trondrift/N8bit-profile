@@ -60,9 +60,7 @@ const skillsSection = {
     emoji(
       "⚡ Development for highly interactive Front end / User Interfaces for web applications and websites"
     ),
-    emoji(
-      "⚡ Web design for business, non-profits, and musicians"
-    ),
+    emoji("⚡ Web design for business, non-profits, and musicians"),
     emoji("⚡ Integration of branding and ecommerce strategies")
   ],
   skillsMusic: [
@@ -188,7 +186,7 @@ const techStack = {
     {
       Stack: "Backend",
       progressPercentage: "65%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -311,7 +309,7 @@ const artistProjects = {
           url: "https://www.hannahrosegraves.net/"
         }
       ]
-    },
+    }
     // {
     //   image: require("./assets/images/geoffprofile.png"),
     //   projectName: "Geoff Hansen",
@@ -358,18 +356,31 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/augieboneslogo1.png"),
-      projectName: "Pet Toys",
+      image: require("./assets/images/LucklesSLIPWhite.png"),
+      projectName: "Luckless Pedestrian",
       projectDesc:
-        " Sustainable, Plant-Based Pet Toys. Made with love, for the health of our pets and planet",
+        " A Steely Dan Experience. An event in honor of Charlie Royce.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://nhansendev.wixsite.com/website/"
+          url: "https://www.luckless-pedestrian.com/"
         }
         //  you can add extra buttons here.
       ]
     },
+    // {
+    //   image: require("./assets/images/augieboneslogo1.png"),
+    //   projectName: "Pet Toys",
+    //   projectDesc:
+    //     " Sustainable, Plant-Based Pet Toys. Made with love, for the health of our pets and planet",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://nhansendev.wixsite.com/website/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
     {
       image: require("./assets/images/HUChristmas.png"),
       projectName: "Hark Up Music",
@@ -385,12 +396,11 @@ const bigProjects = {
     {
       image: require("./assets/images/hansenchartssq.png"),
       projectName: "HansenCharts LLC",
-      projectDesc:
-        "Hansencharts creates unique musical ensemble arrangements for special events",
+      projectDesc: "Musical arrangements for special events", //"Hansencharts creates unique musical ensemble arrangements for special events",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://hansenchartsmusic.com/"
+          url: "" //"https://hansenchartsmusic.com/"
         }
       ]
     }
