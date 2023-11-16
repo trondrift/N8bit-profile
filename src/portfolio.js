@@ -355,19 +355,6 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/LucklesSLIPWhite.png"),
-      projectName: "Luckless Pedestrian",
-      projectDesc:
-        " A Steely Dan Experience. An event in honor of Charlie Royce.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.luckless-pedestrian.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
     // {
     //   image: require("./assets/images/augieboneslogo1.png"),
     //   projectName: "Pet Toys",

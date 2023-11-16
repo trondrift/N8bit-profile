@@ -37,8 +37,8 @@ export default function StartupProject() {
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
               if (isMusicianMode) {
-                //This means only show last 2 projects for hark up
-                if (i > 1) {
+                //This means only show last 3 projects for hark up
+                if (i >= 1) {
                 } else {
                   return "";
                 }
