@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c19001b2.css",
-    "main.js": "./static/js/main.eaf986b6.js",
+    "main.js": "./static/js/main.412be379.js",
     "static/css/64.917cfe77.chunk.css": "./static/css/64.917cfe77.chunk.css",
     "static/js/64.de24b5b0.chunk.js": "./static/js/64.de24b5b0.chunk.js",
     "static/css/769.70f3b610.chunk.css": "./static/css/769.70f3b610.chunk.css",
@@ -9,7 +9,6 @@
     "static/media/DCDetourProfile.png": "./static/media/DCDetourProfile.2776d76c50a40005ff46.png",
     "static/media/gv2full.png": "./static/media/gv2full.9aa4aa1f1173e7176d11.png",
     "static/media/WHcombo.png": "./static/media/WHcombo.47207cc2991d7a3a1983.png",
-    "static/media/HRSmall6.png": "./static/media/HRSmall6.08d6684ebe819331fbfd.png",
     "static/media/melo.png": "./static/media/melo.a8d69fa6637a09f38d80.png",
     "static/media/HUChristmas.png": "./static/media/HUChristmas.9d78810e614f85b76b71.png",
     "static/media/profile-picsax.png": "./static/media/profile-picsax.31a23044092c554eb557.png",
@@ -36,7 +35,7 @@
     "index.html": "./index.html",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.bd16a4840fba66363551.svg",
     "main.c19001b2.css.map": "./static/css/main.c19001b2.css.map",
-    "main.eaf986b6.js.map": "./static/js/main.eaf986b6.js.map",
+    "main.412be379.js.map": "./static/js/main.412be379.js.map",
     "64.917cfe77.chunk.css.map": "./static/css/64.917cfe77.chunk.css.map",
     "64.de24b5b0.chunk.js.map": "./static/js/64.de24b5b0.chunk.js.map",
     "769.70f3b610.chunk.css.map": "./static/css/769.70f3b610.chunk.css.map",
@@ -44,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.c19001b2.css",
-    "static/js/main.eaf986b6.js"
+    "static/js/main.412be379.js"
   ]
 }
