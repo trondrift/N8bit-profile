@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 with experience building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   subTitleMusic: emoji(
-    "A passionate Sax player 🎵 with experience building Web and Mobile sites using JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Sax player 🎵 with professional experience in the tech industry. If I'm not on stage, I'm building websites using JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1YqXXcEZJtlpmwo_oPrl-dMs_KW3N_j-wXfKxnUGksbg/edit?usp=sharing", // Set to empty to hide the button
@@ -54,8 +54,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "WEB DESIGN AND SOFTWARE SOLUTIONS",
-  subTitleMusic:
-    "FULL STACK DEVELOPER / MUSICIAN WHO SPECIALIZES IN WEB DESIGN",
+  subTitleMusic: "MUSICIAN / WEB DESIGNER",
   skills: [
     emoji(
       "⚡ Development for highly interactive Front end / User Interfaces for web applications and websites"
@@ -298,18 +297,18 @@ const artistProjects = {
           url: "https://melophobix.com/"
         }
       ]
-    },
-    {
-      image: require("./assets/images/HRSmall6.png"),
-      projectName: "Hannah Rose Graves",
-      projectDesc: "Official website of Hannah Rose Graves, Music is Medicine!",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.hannahrosegraves.net/"
-        }
-      ]
     }
+    // {
+    //   image: require("./assets/images/HRSmall6.png"),
+    //   projectName: "Hannah Rose Graves",
+    //   projectDesc: "Official website of Hannah Rose Graves, Music is Medicine!",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://www.hannahrosegraves.net/"
+    //     }
+    //   ]
+    // }
     // {
     //   image: require("./assets/images/geoffprofile.png"),
     //   projectName: "Geoff Hansen",
@@ -396,14 +395,26 @@ const bigProjects = {
     {
       image: require("./assets/images/hansenchartssq.png"),
       projectName: "HansenCharts LLC",
-      projectDesc: "Musical arrangements for special events", //"Hansencharts creates unique musical ensemble arrangements for special events",
+      projectDesc:
+        "Premium musical arrangements for special events by request.", //"Hansencharts creates unique musical ensemble arrangements for special events",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "" //"https://hansenchartsmusic.com/"
+          name: "Email Request",
+          url: "mailto:harkup@gmail.com" //"https://hansenchartsmusic.com/"
         }
       ]
     }
+    // {
+    //   image: require("./assets/images/NaplesUCC.png"),
+    //   projectName: "Naples United Church of Christ",
+    //   projectDesc: "Naples, FL",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "" //"https://hansenchartsmusic.com/"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
