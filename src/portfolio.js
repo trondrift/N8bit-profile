@@ -23,8 +23,11 @@ const greeting = {
   username: "Nathan Hansen",
   title: "Hi, I'm Nate",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with experience building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+       "Engineering Solutions, Composing Success"
+     ),
+  //emoji(
+  //   "A passionate Full Stack Software Developer 🚀 with experience building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+  // ),
   subTitleMusic: emoji(
     "A passionate Sax player 🎵 with professional experience in the tech industry. If I'm not on stage, I'm building websites using JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
@@ -199,7 +202,7 @@ const workExperiences = {
       role: "Senior Software Engineer",
       company: "Gentex Corporation",
       companylogo: require("./assets/images/gentexblack.png"),
-      date: "September 2012 – Present",
+      date: "", //"September 2012 – Present",
       desc: "Industry-leading global automotive tech supplier that optimizes driver vision and enhances driving safety and convenience",
       descBullets: [
         "Full stack software tools",
@@ -212,7 +215,7 @@ const workExperiences = {
       role: "Owner",
       company: "Hanstech LLC",
       companylogo: require("./assets/images/Hanstech-final-logo-03.png"),
-      date: "May 2020 – Present",
+      date: "",//"May 2020 – Present",
       desc: "Software solutions and consulting for business, non-profits, recording studios, and high profile musicians",
       descBullets: ["Web Design", "Ecommerce", "Web Frameworks", "Custom Tools"]
     }
