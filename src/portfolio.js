@@ -22,9 +22,7 @@ const illustration = {
 const greeting = {
   username: "Nathan Hansen",
   title: "Hi, I'm Nate",
-  subTitle: emoji(
-       "Engineering Solutions, Composing Success"
-     ),
+  subTitle: emoji("Engineering Solutions, Composing Success"),
   //emoji(
   //   "A passionate Full Stack Software Developer 🚀 with experience building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   // ),
@@ -215,7 +213,7 @@ const workExperiences = {
       role: "Owner",
       company: "Hanstech LLC",
       companylogo: require("./assets/images/Hanstech-final-logo-03.png"),
-      date: "",//"May 2020 – Present",
+      date: "", //"May 2020 – Present",
       desc: "Software solutions and consulting for business, non-profits, recording studios, and high profile musicians",
       descBullets: ["Web Design", "Ecommerce", "Web Frameworks", "Custom Tools"]
     }
