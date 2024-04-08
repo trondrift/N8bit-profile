@@ -25,15 +25,26 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
-              >
-                {" "}
-                {greeting.title}{" "}
-                <span className="wave-emoji">
-                  {isMusicianMode ? emoji("🎷") : emoji("👋")}
-                </span>
-              </h1>
+              {isMusicianMode ? (
+                <div>
+                  <h1
+                    className={
+                      isDark ? "dark-mode greeting-text" : "greeting-text"
+                    }
+                  >
+                    {" "}
+                    {greeting.title}{" "}
+                    <span className="wave-emoji">{emoji("🎷")}</span>
+                  </h1>
+                </div>
+              ) : (
+                <div className="logo-image-div">
+                  <img
+                    alt="Hanstech"
+                    src={require("../../assets/images/Hanstech-final-logo-2-04-crop.png")}
+                  ></img>
+                </div>
+              )}
               <p
                 className={
                   isDark

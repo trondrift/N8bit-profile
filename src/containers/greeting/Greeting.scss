@@ -46,7 +46,13 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.logo-image-div > img {
+  margin: 0px auto;
+  width: 80%;
   height: auto;
 }
 
@@ -109,6 +115,9 @@
   }
   .greeting-image-div {
     height: 256px;
+  }
+  .logo-image-div {
+    display: flex;
   }
 }
 

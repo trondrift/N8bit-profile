@@ -22,7 +22,7 @@ const illustration = {
 const greeting = {
   username: "Nathan Hansen",
   title: "Hi, I'm Nate",
-  subTitle: emoji("Engineering Solutions, Composing Success"),
+  subTitle: emoji("Architecting Solutions, Composing Success"),
   //emoji(
   //   "A passionate Full Stack Software Developer 🚀 with experience building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   // ),
