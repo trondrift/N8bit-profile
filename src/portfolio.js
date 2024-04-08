@@ -31,6 +31,7 @@ const greeting = {
   ),
   resumeLink:
     "https://docs.google.com/document/d/1YqXXcEZJtlpmwo_oPrl-dMs_KW3N_j-wXfKxnUGksbg/edit?usp=sharing", // Set to empty to hide the button
+  quoteLink: "https://nhansendev.wixstudio.io/hanstech/pricing/#ContactForm",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

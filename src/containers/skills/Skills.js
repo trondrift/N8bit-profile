@@ -6,6 +6,7 @@ import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/63921-developer";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import ButtonProfession from "../../components/buttonProfession/ButtonProfession";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
@@ -33,8 +34,15 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              {skillsSection.title}
             </h1>
+            <div>
+          <ButtonProfession
+            className="project-button"
+            text={isMusicianMode ? "Tech Profile Here" : "Musicians Click Here"}
+            href={"#"}
+          />
+        </div>
             <p
               className={
                 isDark
