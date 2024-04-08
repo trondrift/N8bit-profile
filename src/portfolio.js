@@ -346,7 +346,7 @@ const bigProjects = {
       image: require("./assets/images/cwlogo.png"),
       projectName: "Cullowheegee Farms",
       projectDesc:
-        " All Natural, Handmade Soaps, Lotions, Salves, Jewelry and Crafts from our farm in the heart of the Appalachian Mountains",
+        " All Natural, Handmade Soaps, Lotions, Salves, Jewelry and Crafts from our farm in the heart of the Appalachian Mountains.",
       footerLink: [
         {
           name: "Visit Website",
