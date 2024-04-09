@@ -37,12 +37,14 @@ export default function Skills() {
               {skillsSection.title}
             </h1>
             <div>
-          <ButtonProfession
-            className="project-button"
-            text={isMusicianMode ? "Tech Profile Here" : "Musicians Click Here"}
-            href={"#"}
-          />
-        </div>
+              <ButtonProfession
+                className="project-button"
+                text={
+                  isMusicianMode ? "Tech Profile Here" : "Musicians Click Here"
+                }
+                href={"#"}
+              />
+            </div>
             <p
               className={
                 isDark
