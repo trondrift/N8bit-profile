@@ -489,20 +489,20 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Code-In",
       subtitle: "First saxophonist to be selected as Google Code-in Finalist.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: ""
-          //url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: ""
+        //   //url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
         {
           name: "Google Code-in Blog",
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
@@ -512,28 +512,32 @@ const achievementSection = {
     {
       title: "Google Assistant Action",
       subtitle:
-        "Developing a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Developing a Google Assistant Action JavaScript Guru to be available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://github.com/actions-on-google/actions-on-google-nodejs"
+          //url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
     },
 
     {
       title: "PWA Web App Developer",
-      subtitle: "Complete Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Full Stack Certifcation for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://www.gentex.com/"
+          name: "About PWA Apps",
+          url: "https://web.dev/explore/progressive-web-apps"
         }
+        // {
+        //   name: "Final Project",
+        //   url: "https://www.gentex.com/"
+        // }
       ]
     }
   ],
