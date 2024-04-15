@@ -59,9 +59,10 @@ const skillsSection = {
   subTitleMusic: "MUSICIAN / WEB DESIGNER",
   skills: [
     emoji(
-      "⚡ Development for highly interactive Front end / User Interfaces for web applications and websites"
+      "⚡ Development for highly interactive web applications and websites"
     ),
     emoji("⚡ Web design for business, non-profits, and musicians"),
+    emoji("⚡ Problem solving and fixing bugs for complex enterprise systems"),
     emoji("⚡ Integration of branding and ecommerce strategies")
   ],
   skillsMusic: [
