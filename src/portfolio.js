@@ -386,7 +386,7 @@ const bigProjects = {
       image: require("./assets/images/TitanCrop.webp"),
       projectName: "Titan Bioplastics",
       projectDesc:
-        "A sustainable material Engineering company focused on plant based materials for companies seeking solutions for manufacturing and beyond",
+        "A sustainable material engineering company focused on plant based materials for companies seeking solutions for manufacturing and beyond",
       footerLink: [
         {
           name: "Visit Website",
@@ -480,7 +480,7 @@ const nonProfits = {
       image: require("./assets/images/TitanCrop.webp"),
       projectName: "Titan Bioplastics",
       projectDesc:
-        "A sustainable material Engineering company focused on plant based materials for companies seeking solutions for manufacturing and beyond",
+        "A sustainable material engineering company focused on plant based materials for companies seeking solutions for manufacturing and beyond",
       footerLink: [
         {
           name: "Visit Website",
