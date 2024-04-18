@@ -40,7 +40,9 @@ export default function Skills() {
               <ButtonProfession
                 className="project-button"
                 text={
-                  isMusicianMode ? "Tech Profile Here" : "Musicians Click Here"
+                  isMusicianMode
+                    ? "Switch To Tech Profile"
+                    : "For Musician Services Click Here"
                 }
                 href={"#"}
               />

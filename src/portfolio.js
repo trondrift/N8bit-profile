@@ -22,12 +22,12 @@ const illustration = {
 const greeting = {
   username: "Nathan Hansen",
   title: "Hi, I'm Nate",
-  subTitle: emoji("Architecting Solutions, Composing Success"),
+  subTitle: emoji("Architecting Solutions, Composing Success"), //emoji("Architecting Solutions, Composing Success"),
   //emoji(
   //   "A passionate Full Stack Software Developer 🚀 with experience building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   // ),
   subTitleMusic: emoji(
-    "A passionate Sax player 🎵 with professional experience in the tech industry. If I'm not on stage, I'm building websites using JavaScript / Reactjs and some other cool libraries and frameworks."
+    "A passionate Sax player 🎵 with professional experience in the tech industry." // If I'm not on stage, I'm building websites using JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1YqXXcEZJtlpmwo_oPrl-dMs_KW3N_j-wXfKxnUGksbg/edit?usp=sharing", // Set to empty to hide the button
@@ -55,13 +55,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "WEB DESIGN AND SOFTWARE SOLUTIONS",
+  subTitle: "FULL STACK SOFTWARE SOLUTIONS & WEB DESIGN",
   subTitleMusic: "MUSICIAN / WEB DESIGNER",
   skills: [
     emoji(
-      "⚡ Development for highly interactive web applications and websites"
+      "⚡ Software development for highly interactive web applications and websites"
     ),
-    emoji("⚡ Web design for business, non-profits, and musicians"),
+    emoji("⚡ Freelance web design for business, non-profits, and musicians"),
     emoji("⚡ Problem solving and fixing bugs for complex enterprise systems"),
     emoji("⚡ Integration of AI, branding, and ecommerce strategies")
   ],
@@ -216,7 +216,7 @@ const workExperiences = {
       company: "Hanstech LLC",
       companylogo: require("./assets/images/Hanstech-final-logo-03.png"),
       date: "", //"May 2020 – Present",
-      desc: "Software solutions and consulting for business, non-profits, recording studios, and high profile musicians",
+      desc: "Freelance software solutions and consulting for business, non-profits, recording studios, and high profile musicians",
       descBullets: ["Web Design", "Ecommerce", "Web Frameworks", "Custom Tools"]
     }
     // {
@@ -383,18 +383,31 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/LucklesSLIPWhite.png"),
-      projectName: "Luckless Pedestrian",
+      image: require("./assets/images/TitanCrop.webp"),
+      projectName: "Titan Bioplastics",
       projectDesc:
-        " A Steely Dan Experience. An event in honor of Charlie Royce.",
+        "A sustainable material Engineering company focused on plant based materials for companies seeking solutions for manufacturing and beyond",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.luckless-pedestrian.com/"
+          url: "https://www.titanbioplastics.com/"
         }
         //  you can add extra buttons here.
       ]
     },
+    // {
+    //   image: require("./assets/images/LucklesSLIPWhite.png"),
+    //   projectName: "Luckless Pedestrian",
+    //   projectDesc:
+    //     " A Steely Dan Experience. An event in honor of Charlie Royce.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://www.luckless-pedestrian.com/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
     {
       image: require("./assets/images/hansenchartssq.png"),
       projectName: "HansenCharts LLC",
