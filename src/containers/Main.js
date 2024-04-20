@@ -90,7 +90,7 @@ const Main = () => {
             <Video />
             <Audio />
             {/* <Twitter /> */}
-            <Discord />
+            {/*<Discord /> */}
             <Twitch />
             <Profile />
             <Footer />
