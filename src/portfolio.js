@@ -504,7 +504,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Google Code-In",
-      subtitle: "First saxophonist to be selected as Google Code-in Finalist.",
+      subtitle: "An annual international programming competition",//"First saxophonist to be selected as Google Code-in Finalist.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
