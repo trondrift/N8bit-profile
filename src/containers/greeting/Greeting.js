@@ -56,19 +56,24 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 {greeting.resumeLink && (
+                  // <Button
+                  //   text={isMusicianMode ? "My Music" : "See my resume"}
+                  //   newTab={isMusicianMode ? false : true}
+                  //   href={isMusicianMode ? "#music" : greeting.resumeLink}
+                  // />
                   <Button
-                    text={isMusicianMode ? "My Music" : "See my resume"}
-                    newTab={isMusicianMode ? false : true}
-                    href={isMusicianMode ? "#music" : greeting.resumeLink}
-                  />
+                  text={isMusicianMode ? "My Music" : "My Music"}
+                  newTab={isMusicianMode ? false : false}
+                  href={isMusicianMode ? "#music" : "#music"}
+                />
                 )}
-                {greeting.quoteLink && (
+                {/* {greeting.quoteLink && (
                   <Button
                     text={"Quote A Website"}
                     newTab={true}
                     href={greeting.quoteLink}
                   />
-                )}
+                )} */}
                 <Button text="Contact me" href="#contact" />
               </div>
             </div>

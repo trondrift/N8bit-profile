@@ -20,7 +20,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.linkedin ? (
+      {/* {socialMediaLinks.linkedin ? (
         <a
           href={socialMediaLinks.linkedin}
           className="icon-button linkedin"
@@ -30,7 +30,7 @@ export default function socialMedia() {
           <i className="fab fa-linkedin-in"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
       {socialMediaLinks.gmail ? (
         <a
