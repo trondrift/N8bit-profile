@@ -14,10 +14,11 @@ export default function WorkExperience() {
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">Professional Experience</h1>
+              {/* <h1 className="experience-heading">Professional Experience</h1> */}
+              <h1 className="experience-heading"></h1>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
-                  if (isMusicianMode) {
+                  if (1) {
                     if (i > 0) {
                       return (
                         <ExperienceCard
